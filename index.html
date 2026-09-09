@@ -190,9 +190,6 @@
             <div id="agentSplitContainer"></div>
           </div>
 
-          <div class="field" id="dealStartDateContainer" style="display:none;"><label for="dealStartDate">Start Date</label><input class="input" id="dealStartDate" type="date" /></div>
-          <div class="field" id="dealEndDateContainer" style="display:none;"><label for="dealEndDate">End Date (Editable)</label><input class="input" id="dealEndDate" type="date" /></div>
-
           <div class="field full">
             <label>စာချုပ် Document Upload တင်ရန် (PDF, Word, Images)</label>
             <div style="display:flex;gap:8px;align-items:center">
@@ -1399,8 +1396,6 @@
           document.getElementById('dealClosedPrice').value = existing.closedPrice || 0;
           document.getElementById('dealCommPercent').value = existing.commPercent || 2;
           document.getElementById('dealDate').value = existing.date || new Date().toISOString().slice(0, 10);
-          if (existing.startDate) document.getElementById('dealStartDate').value = existing.startDate;
-          if (existing.endDate) document.getElementById('dealEndDate').value = existing.endDate;
           if (existing.contractFileName) document.getElementById('contractFileInfo').textContent = `ယခင်: ${existing.contractFileName}`;
           if (Array.isArray(existing.agents) && existing.agents.length > 0) {
             existing.agents.forEach(a => addAgentSplitRow(a.agentId, a.pct));
@@ -1414,28 +1409,13 @@
         document.getElementById('dealClosedPrice').value = ''; document.getElementById('dealTotalComm').value = '';
         document.getElementById('dealStage').value = 'အသစ်';
         document.getElementById('dealDate').value = new Date().toISOString().slice(0, 10);
-        document.getElementById('dealStartDate').value = new Date().toISOString().slice(0, 10);
-        document.getElementById('dealEndDate').value = new Date(Date.now() + 365*86400000).toISOString().slice(0, 10);
         addAgentSplitRow();
       }
-      checkDealStageFields(); calculateCommissions();
+      calculateCommissions();
       document.getElementById('dealModal').classList.add('open');
     }
 
     function closeDealForm() { document.getElementById('dealModal').classList.remove('open'); }
-
-    function checkDealStageFields() {
-      const stage = document.getElementById('dealStage').value;
-      const startContainer = document.getElementById('dealStartDateContainer');
-      const endContainer = document.getElementById('dealEndDateContainer');
-
-      if (stage === 'စရံချပြီး' || stage === 'စာချုပ်ချုပ်ပြီး') {
-        startContainer.style.display = 'block'; endContainer.style.display = 'block';
-      } else {
-        startContainer.style.display = 'none'; endContainer.style.display = 'none';
-      }
-    }
-    document.getElementById('dealStage').onchange = checkDealStageFields;
 
     function addAgentSplitRow(selectedAgentId = '', pct = 100) {
       const container = document.getElementById('agentSplitContainer');
@@ -1481,7 +1461,7 @@
         document.getElementById('dealListingType').value = prop.listing || '-';
         document.getElementById('dealTargetPrice').value = mmk(prop.price);
         document.getElementById('dealClosedPrice').value = prop.price || 0;
-        checkDealStageFields(); calculateCommissions();
+        calculateCommissions();
       }
     };
 
@@ -1548,8 +1528,6 @@
         commPercent: commPct,
         totalCommission: (closedPrice * commPct) / 100,
         agents: agentSplits,
-        startDate: document.getElementById('dealStartDate').value || '',
-        endDate: document.getElementById('dealEndDate').value || '',
         contractDocId: contractDocId,
         contractFileName: fileNameStr,
         date: document.getElementById('dealDate').value
