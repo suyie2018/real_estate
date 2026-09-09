@@ -1,4 +1,4 @@
-<!doctype html>
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!doctype html>
 <html lang="my">
 <head>
   <meta charset="UTF-8" />
@@ -7,7 +7,23 @@
   <style>
     :root{--brand:#158457;--brand-dark:#0f6b46;--brand-soft:#e8f6ef;--ink:#17221d;--muted:#6b7771;--line:#e4ebe7;--bg:#f5f8f6;--card:#fff;--danger:#c94343;--amber:#b7791f}
     *{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:"Noto Sans Myanmar","Myanmar Text","Pyidaungsu",system-ui,sans-serif;color:var(--ink);background:var(--bg)}
-    button,input,select{font:inherit}button{cursor:pointer;border:0}.app{min-height:100vh;display:flex}.sidebar{width:250px;background:#fff;border-right:1px solid var(--line);display:flex;flex-direction:column;flex-shrink:0}.brand{padding:22px 20px;border-bottom:1px solid var(--line);display:flex;gap:11px;align-items:center}.logo{width:36px;height:36px;border-radius:10px;background:var(--brand);color:white;display:grid;place-items:center;font-weight:800}.brand b{display:block;font-size:15px}.brand small{display:block;color:var(--muted);font-size:11px;margin-top:2px}.nav{padding:12px 10px;flex:1}.nav button{width:100%;text-align:left;padding:11px 12px;background:transparent;color:#53605a;border-radius:9px;margin-bottom:3px;font-size:13px}.nav button:hover,.nav button.active{background:var(--brand-soft);color:var(--brand-dark);font-weight:700}.nav button span{display:inline-block;width:25px;text-align:center;margin-right:4px}.side-note{border-top:1px solid var(--line);padding:13px 18px;color:#98a29d;font-size:11px}.main{min-width:0;flex:1}.topbar{height:70px;background:rgba(255,255,255,.9);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 30px;position:sticky;top:0;z-index:3}.topbar h1{font-size:20px;margin:0}.avatar{width:36px;height:36px;background:var(--brand);color:#fff;border-radius:50%;display:grid;place-items:center;font-weight:700}.content{padding:28px;max-width:1500px;margin:auto}.grid{display:grid;gap:16px}.stats{grid-template-columns:repeat(4,minmax(0,1fr))}.stats.three{grid-template-columns:repeat(3,minmax(0,1fr));margin-top:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:13px;box-shadow:0 2px 7px #244b3610}.stat{padding:19px}.stat label{font-size:12px;color:var(--muted);display:block;font-weight:700}.stat strong{display:block;font-size:25px;margin-top:10px}.stat p{color:var(--muted);font-size:11px;margin:6px 0 0}.section-grid{grid-template-columns:1.4fr 1fr;margin-top:16px}.panel{padding:20px}.panel h2{font-size:15px;margin:0 0 18px}.bar-row{display:grid;grid-template-columns:125px 1fr 28px;align-items:center;gap:9px;margin:14px 0;font-size:12px}.bar{height:10px;border-radius:99px;background:#e6eee9;overflow:hidden}.bar i{display:block;height:100%;background:var(--brand);border-radius:inherit}.agent-row{display:flex;align-items:center;justify-content:space-between;padding:11px 0;border-bottom:1px solid #edf2ef;font-size:12px}.agent-row:last-child{border:0}.agent-name{display:flex;gap:9px;align-items:center}.rank{width:25px;height:25px;display:grid;place-items:center;background:var(--brand-soft);color:var(--brand-dark);border-radius:50%;font-weight:700}.toolbar{display:flex;flex-wrap:wrap;gap:9px;align-items:center;margin-bottom:16px}.toolbar .push{margin-left:auto}.input,.select{border:1px solid #ccd8d1;border-radius:8px;background:#fff;padding:9px 11px;font-size:13px;outline:none}.input:focus,.select:focus{border-color:var(--brand);box-shadow:0 0 0 3px #15845718}.btn{border-radius:8px;padding:9px 13px;font-weight:700;font-size:12px}.primary{color:#fff;background:var(--brand)}.primary:hover{background:var(--brand-dark)}.secondary{background:#edf2ef;color:#314238}.danger{background:#fff0f0;color:var(--danger)}.table-wrap{overflow:auto}.table{width:100%;border-collapse:collapse;font-size:12px;background:#fff}.table th{text-align:left;color:#758179;font-size:11px;padding:12px 14px;border-bottom:1px solid var(--line);white-space:nowrap}.table td{padding:13px 14px;border-bottom:1px solid #eef3f0;white-space:nowrap}.table tr:hover td{background:#fbfdfb}.badge{display:inline-flex;align-items:center;border-radius:99px;padding:4px 9px;font-size:10px;font-weight:700;background:#edf2ef;color:#53605a}.green{background:#e8f6ef;color:#13734a}.yellow{background:#fff7e6;color:#9a6817}.red{background:#fff0f0;color:#b63838}.blue{background:#ebf4ff;color:#2f68a6}.empty{padding:34px;text-align:center;color:var(--muted);font-size:13px}.cards{grid-template-columns:repeat(3,minmax(0,1fr))}.property{padding:16px}.property h3{font-size:14px;margin:0 0 7px}.property p{font-size:11px;color:var(--muted);margin:7px 0}.property .price{font-size:17px;color:var(--brand-dark);font-weight:800}.property-foot{display:flex;gap:7px;border-top:1px solid #edf2ef;padding-top:11px;margin-top:12px}.property-foot .btn{flex:1;padding:7px 5px}.pipeline{display:flex;gap:13px;overflow-x:auto;padding-bottom:8px}.stage{min-width:220px;flex:1;border-top:4px solid #aab5af;padding:13px}.stage:nth-child(2){border-color:#58a8dc}.stage:nth-child(3){border-color:#7a8bd8}.stage:nth-child(4){border-color:#dca94c}.stage:nth-child(5){border-color:#9d7ac9}.stage:nth-child(6){border-color:#33a76d}.stage h3{font-size:13px;margin:0 0 12px}.deal{padding:12px;margin-top:8px;border:1px solid var(--line);border-radius:9px;background:white;font-size:12px}.deal b{display:block}.deal small{color:var(--muted);display:block;margin-top:5px}.notice{padding:12px 14px;background:#fff8e8;color:#805d1a;border:1px solid #f4dfae;border-radius:9px;font-size:12px;margin-bottom:16px}.modal-backdrop{display:none;position:fixed;inset:0;background:#10251a80;z-index:20;align-items:center;justify-content:center;padding:16px}.modal-backdrop.open{display:flex}.modal{background:#fff;border-radius:14px;width:min(760px,100%);max-height:92vh;overflow:auto;padding:22px;box-shadow:0 18px 60px #10251a40}.modal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}.modal-head h2{font-size:17px;margin:0}.modal-close{background:#edf2ef;border-radius:50%;width:30px;height:30px}.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.field label{display:block;font-size:11px;color:var(--muted);font-weight:700;margin-bottom:5px}.field.full{grid-column:1/-1}.field textarea{min-height:75px;resize:vertical}.form-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:17px;padding-top:14px;border-top:1px solid var(--line)}.mobile-menu{display:none;background:transparent;font-size:21px}@media(max-width:900px){.sidebar{width:220px}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.section-grid{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:650px){.sidebar{position:fixed;left:-260px;top:0;bottom:0;z-index:10;transition:left .2s}.sidebar.open{left:0}.mobile-menu{display:block}.topbar{padding:0 16px}.content{padding:17px 13px}.stats,.stats.three,.cards{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.topbar h1{font-size:16px}}
+    button,input,select{font:inherit}button{cursor:pointer;border:0}.app{min-height:100vh;display:flex}.sidebar{width:250px;background:#fff;border-right:1px solid var(--line);display:flex;flex-direction:column;flex-shrink:0}.brand{padding:22px 20px;border-bottom:1px solid var(--line);display:flex;gap:11px;align-items:center}.logo{width:36px;height:36px;border-radius:10px;background:var(--brand);color:white;display:grid;place-items:center;font-weight:800}.brand b{display:block;font-size:15px}.brand small{display:block;color:var(--muted);font-size:11px;margin-top:2px}.nav{padding:12px 10px;flex:1}.nav button{width:100%;text-align:left;padding:11px 12px;background:transparent;color:#53605a;border-radius:99px;margin-bottom:3px;font-size:13px}.nav button:hover,.nav button.active{background:var(--brand-soft);color:var(--brand-dark);font-weight:700}.nav button span{display:inline-block;width:25px;text-align:center;margin-right:4px}.side-note{border-top:1px solid var(--line);padding:13px 18px;color:#98a29d;font-size:11px}.main{min-width:0;flex:1}.topbar{height:70px;background:rgba(255,255,255,.9);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 30px;position:sticky;top:0;z-index:3}.topbar h1{font-size:20px;margin:0}.avatar{width:36px;height:36px;background:var(--brand);color:#fff;border-radius:50%;display:grid;place-items:center;font-weight:700}.content{padding:28px;max-width:1500px;margin:auto}.grid{display:grid;gap:16px}.stats{grid-template-columns:repeat(4,minmax(0,1fr))}.stats.three{grid-template-columns:repeat(3,minmax(0,1fr));margin-top:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:13px;box-shadow:0 2px 7px #244b3610}.stat{padding:19px}.stat label{font-size:12px;color:var(--muted);display:block;font-weight:700}.stat strong{display:block;font-size:25px;margin-top:10px}.stat p{color:var(--muted);font-size:11px;margin:6px 0 0}.section-grid{grid-template-columns:1.4fr 1fr;margin-top:16px}.panel{padding:20px}.panel h2{font-size:15px;margin:0 0 18px}.bar-row{display:grid;grid-template-columns:125px 1fr 28px;align-items:center;gap:9px;margin:14px 0;font-size:12px}.bar{height:10px;border-radius:99px;background:#e6eee9;overflow:hidden}.bar i{display:block;height:100%;background:var(--brand);border-radius:inherit}.agent-row{display:flex;align-items:center;justify-content:space-between;padding:11px 0;border-bottom:1px solid #edf2ef;font-size:12px}.agent-row:last-child{border:0}.agent-name{display:flex;gap:9px;align-items:center}.rank{width:25px;height:25px;display:grid;place-items:center;background:var(--brand-soft);color:var(--brand-dark);border-radius:50%;font-weight:700}.toolbar{display:flex;flex-wrap:wrap;gap:9px;align-items:center;margin-bottom:16px}.toolbar .push{margin-left:auto}.input,.select{border:1px solid #ccd8d1;border-radius:8px;background:#fff;padding:9px 11px;font-size:13px;outline:none}.input:focus,.select:focus{border-color:var(--brand);box-shadow:0 0 0 3px #15845718}.btn{border-radius:8px;padding:9px 13px;font-weight:700;font-size:12px;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:4px}.primary{color:#fff;background:var(--brand)}.primary:hover{background:var(--brand-dark)}.secondary{background:#edf2ef;color:#314238}.danger{background:#fff0f0;color:var(--danger)}.table-wrap{overflow:auto}.table{width:100%;border-collapse:collapse;font-size:12px;background:#fff}.table th{text-align:left;color:#758179;font-size:11px;padding:12px 14px;border-bottom:1px solid var(--line);white-space:nowrap}.table td{padding:13px 14px;border-bottom:1px solid #eef3f0;white-space:nowrap}.table tr:hover td{background:#fbfdfb}.badge{display:inline-flex;align-items:center;border-radius:99px;padding:4px 9px;font-size:10px;font-weight:700;background:#edf2ef;color:#53605a}.green{background:#e8f6ef;color:#13734a}.yellow{background:#fff7e6;color:#9a6817}.red{background:#fff0f0;color:#b63838}.blue{background:#ebf4ff;color:#2f68a6}.empty{padding:34px;text-align:center;color:var(--muted);font-size:13px}.cards{grid-template-columns:repeat(3,minmax(0,1fr))}.property{padding:16px}.property h3{font-size:14px;margin:0 0 7px}.property p{font-size:11px;color:var(--muted);margin:7px 0}.property .price{font-size:17px;color:var(--brand-dark);font-weight:800}.property-foot{display:flex;gap:7px;border-top:1px solid #edf2ef;padding-top:11px;margin-top:12px;flex-wrap:wrap}.property-foot .btn{flex:1;padding:7px 5px;white-space:nowrap}.pipeline{display:flex;gap:13px;overflow-x:auto;padding-bottom:8px}.stage{min-width:260px;flex:1;border-top:4px solid #aab5af;padding:13px}.stage:nth-child(2){border-color:#58a8dc}.stage:nth-child(3){border-color:#7a8bd8}.stage:nth-child(4){border-color:#dca94c}.stage:nth-child(5){border-color:#e67e22}.stage h3{font-size:13px;margin:0 0 12px}.deal{padding:12px;margin-top:8px;border:1px solid var(--line);border-radius:10px;background:white;font-size:12px;cursor:pointer;transition:transform 0.1s, box-shadow 0.1s;}.deal:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,0.08);}.deal b{display:block}.deal small{color:var(--muted);display:block;margin-top:5px}.notice{padding:12px 14px;background:#fff8e8;color:#805d1a;border:1px solid #f4dfae;border-radius:99px;font-size:12px;margin-bottom:16px}.modal-backdrop{display:none;position:fixed;inset:0;background:#10251a80;z-index:20;align-items:center;justify-content:center;padding:16px}.modal-backdrop.open{display:flex}.modal{background:#fff;border-radius:14px;width:min(760px,100%);max-height:92vh;overflow:auto;padding:22px;box-shadow:0 18px 60px #10251a40}.modal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}.modal-head h2{font-size:17px;margin:0}.modal-close{background:#edf2ef;border-radius:50%;width:30px;height:30px}.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.field label{display:block;font-size:11px;color:var(--muted);font-weight:700;margin-bottom:5px}.field.full{grid-column:1/-1}.field textarea{min-height:75px;resize:vertical}.form-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:17px;padding-top:14px;border-top:1px solid var(--line)}.mobile-menu{display:none;background:transparent;font-size:21px}@media(max-width:900px){.sidebar{width:220px}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.section-grid{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:650px){.sidebar{position:fixed;left:-260px;top:0;bottom:0;z-index:10;transition:left .2s}.sidebar.open{left:0}.mobile-menu{display:block}.topbar{padding:0 16px}.content{padding:17px 13px}.stats,.stats.three,.cards{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.topbar h1{font-size:16px}}
+    .gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:14px}
+    .gallery-item{position:relative;width:100%;height:150px;border-radius:8px;overflow:hidden;border:1px solid var(--line);background:#000}
+    .gallery-item img{width:100%;height:100%;object-fit:cover;display:block}
+    .image-preview-list{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+    .img-thumb-container{position:relative;width:60px;height:60px;border-radius:6px;overflow:hidden;border:1px solid var(--line)}
+    .img-thumb-container img{width:100%;height:100%;object-fit:cover}
+    .img-thumb-del{position:absolute;top:2px;right:2px;background:rgba(0,0,0,0.6);color:white;width:18px;height:18px;border-radius:50%;font-size:10px;display:grid;place-items:center;cursor:pointer}
+    .agent-split-row{display:flex;gap:8px;align-items:center;margin-bottom:6px}
+    .agent-split-row select{flex:2}.agent-split-row input{flex:1}.agent-split-row span{font-size:12px;font-weight:bold;min-width:90px;text-align:right}
+    .detail-section{background:#f8faf9;border-radius:10px;padding:14px;border:1px solid var(--line);margin-bottom:12px}
+    .detail-section h4{margin:0 0 10px;font-size:13px;color:var(--brand-dark);border-bottom:1px solid var(--line);padding-bottom:5px}
+    .detail-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;font-size:12px}
+    .detail-item label{display:block;color:var(--muted);font-size:11px}
+    .detail-item span{font-weight:600;display:block;margin-top:2px}
+    .doc-preview-box{width:100%;height:450px;border:1px solid var(--line);border-radius:8px;margin-top:10px;background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden}
+    .doc-preview-box iframe, .doc-preview-box img{width:100%;height:100%;object-fit:contain;border:0}
   </style>
   <style>
     .top-actions{display:flex;align-items:center;gap:9px}.settings-btn{width:36px;height:36px;border-radius:50%;background:#edf2ef;color:#314238;font-size:18px}.settings-btn:hover{background:var(--brand-soft);color:var(--brand-dark)}.login-modal{width:min(560px,100%)}.connection-status{padding:10px 12px;border-radius:8px;background:#f3f6f4;color:var(--muted);font-size:12px;margin:0 0 15px}.connection-status.ok{background:#e8f6ef;color:#13734a}.connection-status.error{background:#fff0f0;color:#b63838}.settings-help{font-size:11px;color:var(--muted);line-height:1.6;margin-top:13px}.settings-help summary{cursor:pointer;color:var(--brand-dark);font-weight:700}.code-note{display:block;background:#f5f8f6;border:1px solid var(--line);border-radius:8px;padding:9px;white-space:pre-wrap;margin-top:7px;font-family:ui-monospace,monospace;font-size:10px;color:#415148}
@@ -18,16 +34,18 @@
     <aside class="sidebar" id="sidebar">
       <div class="brand"><div class="logo">N</div><div><b>NEAZT Myanmar</b><small>Real Estate &amp; CRM</small></div></div>
       <nav class="nav" id="nav"></nav>
-      <div class="side-note">v1.0 · MMK locale enabled</div>
+      <div class="side-note">v1.2 · MMK locale enabled</div>
     </aside>
     <div class="main">
        <header class="topbar"><div style="display:flex;align-items:center;gap:10px"><button class="mobile-menu" id="menuBtn">☰</button><h1 id="pageTitle">Dashboard</h1></div><div class="top-actions"><button class="settings-btn" id="settingsBtn" title="App Settings">⚙</button><button class="avatar" id="userAvatar" title="User Login">A</button></div></header>
       <main class="content" id="content"></main>
     </div>
   </div>
+
+  <!-- Property Modal -->
   <div class="modal-backdrop" id="propertyModal">
     <div class="modal">
-      <div class="modal-head"><h2 id="propertyModalTitle">အိမ်ခြံမြေထည့်ရန်</h2><button class="modal-close" id="closePropertyModal">✕</button></div>
+      <div class="modal-head"><h2 id="propertyModalTitle">အိမ်ခြံမြေထည့်ရန်</h2><button class="modal-close" id="closePropertyModal" type="button">✕</button></div>
       <form id="propertyForm">
         <div class="form-grid">
           <div class="field full"><label for="propertyTitle">ခေါင်းစဉ် *</label><input class="input" id="propertyTitle" required /></div>
@@ -38,10 +56,26 @@
           <div class="field"><label for="propertyTownship">မြို့နယ်</label><input class="input" id="propertyTownship" /></div>
           <div class="field"><label for="propertyCity">မြို့</label><input class="input" id="propertyCity" value="ရန်ကုန်" /></div>
           <div class="field full"><label for="propertyAddress">လိပ်စာအပြည့်အစုံ</label><input class="input" id="propertyAddress" /></div>
+          
+          <div class="field"><label for="propertySourceType">အပ်နှံမှု အရင်းအမြစ် *</label><select class="select" id="propertySourceType"><option value="direct">တိုက်ရိုက် လာအပ်သည်</option><option value="agent">Agent မှတဆင့်</option></select></div>
+          <div class="field" id="agentSelectContainer" style="display:none;"><label for="propertySourceAgent">အပ်နှံသည့် Agent</label><select class="select" id="propertySourceAgent"><option value="">-- Agent ရွေးပါ --</option></select></div>
+
+          <div class="field full"><label for="propertyMapUrl">Google Maps Link (Optional)</label><input class="input" id="propertyMapUrl" placeholder="https://maps.google.com/..." /></div>
+          <div class="field full">
+            <label>ဓာတ်ပုံများ ရွေးချယ်ရန် (အများဆုံး ၅ ပုံ)</label>
+            <div style="display:flex;gap:8px;align-items:center">
+              <input type="file" id="propertyFileInput" accept="image/*" multiple style="display:none" />
+              <button type="button" class="btn secondary" id="selectImageBtn">📁 + ပုံရွေးရန်</button>
+              <small style="color:var(--muted);font-size:11px" id="imageCountLabel">0 / 5 ပုံ ရွေးပြီး</small>
+            </div>
+            <div class="image-preview-list" id="imagePreviewContainer"></div>
+          </div>
+
           <div class="field"><label for="propertyBeds">အိပ်ခန်းအရေအတွက်</label><input class="input" id="propertyBeds" type="number" min="0" value="0" /></div>
           <div class="field"><label for="propertyBaths">ရေချိုးခန်းအရေအတွက်</label><input class="input" id="propertyBaths" type="number" min="0" value="0" /></div>
           <div class="field"><label for="propertySize">အကျယ်အဝန်း (စတုရန်းပေ)</label><input class="input" id="propertySize" type="number" min="0" /></div>
-          <div class="field"><label for="propertyOwner">ပိုင်ရှင်အမည်</label><input class="input" id="propertyOwner" /></div>
+          <div class="field"><label for="propertyOwnerSelect">ပိုင်ရှင် ဖောက်သည် ရွေးရန်</label><select class="select" id="propertyOwnerSelect"><option value="">-- ဖောက်သည် စာရင်းမှ ရွေးပါ --</option></select></div>
+          <div class="field"><label for="propertyOwner">ပိုင်ရှင်အမည် (Manual)</label><input class="input" id="propertyOwner" /></div>
           <div class="field"><label for="propertyPhone">ပိုင်ရှင်ဖုန်း</label><input class="input" id="propertyPhone" /></div>
           <div class="field full"><label for="propertyDescription">ဖော်ပြချက်</label><textarea class="input" id="propertyDescription"></textarea></div>
         </div>
@@ -49,15 +83,206 @@
       </form>
     </div>
   </div>
-  <div class="modal-backdrop" id="recordModal">
+
+  <!-- Rental Service Modal -->
+  <div class="modal-backdrop" id="rentalModal">
     <div class="modal">
-      <div class="modal-head"><h2 id="recordModalTitle">အသစ်ထည့်ရန်</h2><button class="modal-close" id="closeRecordModal">✕</button></div>
-      <form id="recordForm"><div class="form-grid" id="recordFields"></div><div class="form-actions"><button type="button" class="btn secondary" id="cancelRecordModal">မလုပ်တော့ပါ</button><button type="submit" class="btn primary">သိမ်းရန်</button></div></form>
+      <div class="modal-head"><h2 id="rentalModalTitle">အိမ်ငှား ဝန်ဆောင်မှု အသစ်ထည့်ရန်</h2><button class="modal-close" id="closeRentalModal" type="button">✕</button></div>
+      <form id="rentalForm">
+        <input type="hidden" id="rentalId" />
+        <div class="form-grid">
+          <div class="field full"><label for="rentalPropertySelect">အိမ်ခြံမြေ (ငှားရန်) ရွေးချယ်ရန် *</label><select class="select" id="rentalPropertySelect" required><option value="">-- အိမ်ခြံမြေ ရွေးပါ --</option></select></div>
+          <div class="field"><label for="rentalTenantSelect">ငှားသူ (ဖောက်သည်) *</label><select class="select" id="rentalTenantSelect" required><option value="">-- ငှားသူ ရွေးပါ --</option></select></div>
+          <div class="field"><label for="rentalOwner">အိမ်ရှင် အမည်</label><input class="input" id="rentalOwner" readonly style="background:#f5f8f6" /></div>
+          
+          <div class="field"><label for="rentalStage">Status Pipeline *</label>
+            <select class="select" id="rentalStage">
+              <option>အသစ်</option>
+              <option>ကြည့်ရှုပြီး</option>
+              <option>စရံချပြီး</option>
+              <option>စာချုပ်ချုပ်ပြီး</option>
+              <option>ပျက်ပြယ်ပြီး</option>
+            </select>
+          </div>
+          <div class="field"><label for="rentalMonthlyPrice">လစဉ် ငှားရမ်းခ (ကျပ်) *</label><input class="input" id="rentalMonthlyPrice" type="number" min="0" required /></div>
+          <div class="field"><label for="rentalDeposit">စပေါ်ငွေ (Deposit) (ကျပ်)</label><input class="input" id="rentalDeposit" type="number" min="0" value="0" /></div>
+
+          <div class="field"><label for="rentalPeriod">အငှားကာလ *</label>
+            <select class="select" id="rentalPeriod" required>
+              <option value="3m">၃ လ</option>
+              <option value="6m" selected>၆ လ</option>
+              <option value="1y">၁ နှစ်</option>
+              <option value="monthly">၁ လချင်းပေး</option>
+            </select>
+          </div>
+          <div class="field"><label for="rentalStartDate">Start Date *</label><input class="input" id="rentalStartDate" type="date" required /></div>
+          <div class="field"><label for="rentalEndDate">End Date (Editable) *</label><input class="input" id="rentalEndDate" type="date" required /></div>
+
+          <div class="field"><label for="rentalTotalFeeOpt">Total Agent Fee ရွေးချယ်ရန်</label>
+            <select class="select" id="rentalTotalFeeOpt">
+              <option value="50">50% (လဝက်စာ)</option>
+              <option value="100" selected>100% (တစ်လစာ)</option>
+            </select>
+          </div>
+          <div class="field"><label for="rentalTotalComm">စုစုပေါင်း Agent Fee (MMK)</label><input class="input" id="rentalTotalComm" readonly style="background:#e8f6ef;font-weight:bold;color:var(--brand-dark)" /></div>
+
+          <div class="field full">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+              <label style="margin:0">Add Agent (တာဝန်ယူ Agent များ &amp; % Split)</label>
+              <button type="button" class="btn secondary" id="addRentalAgentRowBtn" style="padding:3px 8px;font-size:11px">+ Agent ထပ်ထည့်ရန်</button>
+            </div>
+            <div id="rentalAgentSplitContainer"></div>
+          </div>
+          
+          <div class="field full">
+            <label>ငှားရမ်းမှု စာချုပ် File ရွေးရန် (PDF/Word/Images)</label>
+            <div style="display:flex;gap:8px;align-items:center">
+              <input type="file" id="rentalFileInput" style="display:none" />
+              <button type="button" class="btn secondary" id="selectRentalFileBtn">📄 စာချုပ် တင်မည်</button>
+              <span id="rentalFileInfo" style="font-size:11px;color:var(--muted)">မရွေးရသေးပါ</span>
+            </div>
+          </div>
+        </div>
+        <div class="form-actions">
+          <button type="button" class="btn secondary" id="cancelRentalModal">မလုပ်တော့ပါ</button>
+          <button type="submit" class="btn primary">သိမ်းရန်</button>
+        </div>
+      </form>
     </div>
   </div>
+
+  <!-- Deal Modal -->
+  <div class="modal-backdrop" id="dealModal">
+    <div class="modal">
+      <div class="modal-head"><h2 id="dealModalTitle">အရောင်းအဝယ်အသစ် ပြုလုပ်ရန်</h2><button class="modal-close" id="closeDealModal" type="button">✕</button></div>
+      <form id="dealForm">
+        <input type="hidden" id="dealId" />
+        <div class="form-grid">
+          <div class="field full"><label for="dealTitle">ခေါင်းစဉ် *</label><input class="input" id="dealTitle" required /></div>
+          <div class="field"><label for="dealPropertySelect">အိမ်ခြံမြေ ရွေးချယ်ရန် *</label><select class="select" id="dealPropertySelect" required><option value="">-- အိမ်ခြံမြေ ရွေးပါ --</option></select></div>
+          <div class="field"><label for="dealClientSelect">ဖောက်သည် (ဝယ်သူ/ငှားသူ) *</label><select class="select" id="dealClientSelect" required><option value="">-- ဖောက်သည် ရွေးပါ --</option></select></div>
+          
+          <div class="field"><label for="dealOwner">အိမ်ရှင်/ပိုင်ရှင် အမည်</label><input class="input" id="dealOwner" readonly style="background:#f5f8f6" /></div>
+          <div class="field"><label for="dealOwnerPhone">ပိုင်ရှင် ဖုန်းနံပါတ်</label><input class="input" id="dealOwnerPhone" readonly style="background:#f5f8f6" /></div>
+          
+          <div class="field"><label for="dealListingType">အမျိုးအစား</label><input class="input" id="dealListingType" readonly style="background:#f5f8f6" /></div>
+          <div class="field"><label for="dealTargetPrice">သတ်မှတ်ထားသော စျေးနှုန်း</label><input class="input" id="dealTargetPrice" readonly style="background:#f5f8f6" /></div>
+
+          <div class="field"><label for="dealStage">Status Pipeline *</label>
+            <select class="select" id="dealStage">
+              <option>အသစ်</option>
+              <option>ကြည့်ရှုပြီး</option>
+              <option>စရံချပြီး</option>
+              <option>စာချုပ်ချုပ်ပြီး</option>
+              <option>ပျက်ပြယ်ပြီး</option>
+            </select>
+          </div>
+          <div class="field"><label for="dealClosedPrice">အတည်ပြု ရောင်း/ငှား စျေးနှုန်း (Agreed/Closed Price) *</label><input class="input" id="dealClosedPrice" type="number" min="0" required /></div>
+          
+          <div class="field"><label for="dealCommPercent">Agent Fee / ကော်မရှင် ရာခိုင်နှုန်း (%)</label><input class="input" id="dealCommPercent" type="number" step="0.1" value="2" /></div>
+          <div class="field"><label for="dealTotalComm">စုစုပေါင်း Agent Fee (MMK)</label><input class="input" id="dealTotalComm" readonly style="background:#e8f6ef;font-weight:bold;color:var(--brand-dark)" /></div>
+
+          <div class="field full">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+              <label style="margin:0">Add Agent (တာဝန်ယူ Agent များ &amp; % Split)</label>
+              <button type="button" class="btn secondary" id="addAgentRowBtn" style="padding:3px 8px;font-size:11px">+ Agent ထပ်ထည့်ရန်</button>
+            </div>
+            <div id="agentSplitContainer"></div>
+          </div>
+
+          <div class="field" id="dealStartDateContainer" style="display:none;"><label for="dealStartDate">Start Date</label><input class="input" id="dealStartDate" type="date" /></div>
+          <div class="field" id="dealEndDateContainer" style="display:none;"><label for="dealEndDate">End Date (Editable)</label><input class="input" id="dealEndDate" type="date" /></div>
+
+          <div class="field full">
+            <label>စာချုပ် Document Upload တင်ရန် (PDF, Word, Images)</label>
+            <div style="display:flex;gap:8px;align-items:center">
+              <input type="file" id="dealFileInput" style="display:none" />
+              <button type="button" class="btn secondary" id="selectContractFileBtn">📄 စာချုပ် File ရွေးရန်</button>
+              <span id="contractFileInfo" style="font-size:11px;color:var(--muted)">မရွေးရသေးပါ</span>
+            </div>
+          </div>
+
+          <div class="field full"><label for="dealDate">ရက်စွဲ *</label><input class="input" id="dealDate" type="date" required /></div>
+        </div>
+        <div class="form-actions" id="dealFormActions">
+          <button type="button" class="btn secondary" id="cancelDealModal">မလုပ်တော့ပါ</button>
+          <button type="submit" class="btn primary" id="saveDealBtn">သိမ်းရန်</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Contract Viewer Modal -->
+  <div class="modal-backdrop" id="contractViewModal">
+    <div class="modal" style="max-width:850px">
+      <div class="modal-head">
+        <h2 id="contractViewTitle">စာချုပ် အသေးစိတ် ကြည့်ရှုရန်</h2>
+        <button class="modal-close" id="closeContractViewModal" type="button">✕</button>
+      </div>
+      <div id="contractViewBody"></div>
+      <div class="form-actions">
+        <button type="button" class="btn secondary" id="cancelContractViewModal">ပိတ်မည်</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Deal Detail View Modal -->
+  <div class="modal-backdrop" id="dealDetailModal">
+    <div class="modal" style="max-width:850px">
+      <div class="modal-head">
+        <h2 id="dealDetailTitle">အရောင်းအဝယ် / ဝန်ဆောင်မှု အသေးစိတ်</h2>
+        <button class="modal-close" id="closeDealDetailModal" type="button">✕</button>
+      </div>
+      <div id="dealDetailBody"></div>
+      <div class="form-actions" id="dealDetailActions">
+        <button type="button" class="btn secondary" id="cancelDealDetailModal">ပိတ်မည်</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image View Modal -->
+  <div class="modal-backdrop" id="imageModal">
+    <div class="modal">
+      <div class="modal-head"><h2 id="imageModalTitle">အိမ်ခြံမြေ ဓာတ်ပုံများ</h2><button class="modal-close" id="closeImageModal" type="button">✕</button></div>
+      <div id="imageGalleryGrid" class="gallery-grid"></div>
+      <div class="form-actions"><button type="button" class="btn secondary" id="cancelImageModal">ပိတ်မည်</button></div>
+    </div>
+  </div>
+
+  <!-- Send Agent Modal -->
+  <div class="modal-backdrop" id="sendAgentModal">
+    <div class="modal" style="max-width:500px">
+      <div class="modal-head"><h2>Agent များထံ အိမ်ခြံမြေ အချက်အလက် ပို့ရန်</h2><button class="modal-close" id="closeSendAgentModal" type="button">✕</button></div>
+      <div class="field full"><label>ပို့ဆောင်မည့် စာကြောင်း အကြမ်းကြည့်ရန်</label><textarea class="input" id="sendAgentText" readonly style="height:120px"></textarea></div>
+      <div class="form-actions" style="justify-content:space-between">
+        <button type="button" class="btn secondary" id="cancelSendAgentModal">မလုပ်တော့ပါ</button>
+        <div style="display:flex;gap:8px">
+          <button type="button" class="btn primary" id="shareWhatsAppBtn" style="background:#25D366">WhatsApp</button>
+          <button type="button" class="btn primary" id="shareTelegramBtn" style="background:#0088cc">Telegram</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Generic Record Modal for Clients, Agents, Invoices, Maintenance -->
+  <div class="modal-backdrop" id="recordModal">
+    <div class="modal">
+      <div class="modal-head"><h2 id="recordModalTitle">အသစ်ထည့်ရန်</h2><button class="modal-close" id="closeRecordModal" type="button">✕</button></div>
+      <form id="recordForm">
+        <input type="hidden" id="recordId" />
+        <div class="form-grid" id="recordFields"></div>
+        <div class="form-actions">
+          <button type="button" class="btn secondary" id="cancelRecordModal">မလုပ်တော့ပါ</button>
+          <button type="submit" class="btn primary">သိမ်းရန်</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- User Modal -->
   <div class="modal-backdrop" id="userModal">
     <div class="modal login-modal">
-      <div class="modal-head"><h2 id="userModalTitle">User Login</h2><button class="modal-close" id="closeUserModal">✕</button></div>
+      <div class="modal-head"><h2 id="userModalTitle">User Login</h2><button class="modal-close" id="closeUserModal" type="button">✕</button></div>
       <p id="userLoginNotice" style="font-size:12px;color:var(--muted);margin:0 0 15px">Standalone version အတွက် local user session ဖြစ်ပါသည်။</p>
       <form id="userLoginForm">
         <div class="form-grid">
@@ -69,196 +294,1696 @@
       </form>
     </div>
   </div>
+
+  <!-- Settings Modal -->
   <div class="modal-backdrop" id="settingsModal">
     <div class="modal">
-      <div class="modal-head"><h2>App Settings</h2><button class="modal-close" id="closeSettingsModal">✕</button></div>
-      <div class="connection-status" id="connectionStatus">Local Browser Storage — ချိတ်ဆက်ရန် Provider ရွေးပါ</div>
+      <div class="modal-head"><h2>Database Settings</h2><button class="modal-close" id="closeSettingsModal" type="button">✕</button></div>
+      <div class="connection-status" id="connectionStatus">Local Browser Storage</div>
       <form id="settingsForm">
         <div class="form-grid">
-          <div class="field full"><label for="databaseProvider">Database Provider</label><select class="select" id="databaseProvider"><option value="local">Local Browser Storage</option><option value="supabase">Supabase Realtime</option><option value="firebase">Firebase Realtime Database</option></select></div>
+          <div class="field full">
+            <label for="databaseProvider">Database Provider</label>
+            <select class="select" id="databaseProvider">
+              <option value="local">Local Browser Storage</option>
+              <option value="supabase">Supabase Realtime / Cloud Database</option>
+              <option value="firebase">Firebase Realtime Database</option>
+              <option value="localhost">Localhost API / Database Server</option>
+            </select>
+          </div>
+          <div class="field full" id="databaseProviderFields"></div>
         </div>
-        <div id="supabaseFields" class="form-grid" style="margin-top:12px;display:none">
-          <div class="field full"><label for="supabaseUrl">Supabase Project URL *</label><input class="input" id="supabaseUrl" placeholder="https://your-project.supabase.co" /></div>
-          <div class="field full"><label for="supabaseAnonKey">Supabase Anon / Publishable Key *</label><input class="input" id="supabaseAnonKey" type="password" /></div>
-          <div class="field full"><label for="supabaseTable">Sync Table Name</label><input class="input" id="supabaseTable" value="pms_data" /></div>
+        <div id="databaseHelp" class="settings-help"></div>
+        <div class="form-actions">
+          <button type="button" class="btn secondary" id="testDatabaseConnection">ချိတ်ဆက်မှု စမ်းသပ်ရန်</button>
+          <button type="button" class="btn secondary" id="cancelSettingsModal">ပိတ်မည်</button>
+          <button type="submit" class="btn primary" id="connectDatabase">သိမ်းပြီး ချိတ်ဆက်ရန်</button>
         </div>
-        <div id="firebaseFields" class="form-grid" style="margin-top:12px;display:none">
-          <div class="field full"><label for="firebaseDatabaseUrl">Firebase Realtime Database URL *</label><input class="input" id="firebaseDatabaseUrl" placeholder="https://your-project-default-rtdb.asia-southeast1.firebasedatabase.app" /></div>
-          <div class="field"><label for="firebaseApiKey">API Key *</label><input class="input" id="firebaseApiKey" type="password" /></div>
-          <div class="field"><label for="firebaseProjectId">Project ID *</label><input class="input" id="firebaseProjectId" /></div>
-          <div class="field"><label for="firebaseAppId">App ID *</label><input class="input" id="firebaseAppId" /></div>
-          <div class="field"><label for="firebaseMessagingSenderId">Messaging Sender ID</label><input class="input" id="firebaseMessagingSenderId" /></div>
-          <div class="field"><label for="firebaseAuthDomain">Auth Domain</label><input class="input" id="firebaseAuthDomain" placeholder="your-project.firebaseapp.com" /></div>
-          <div class="field"><label for="firebaseStorageBucket">Storage Bucket</label><input class="input" id="firebaseStorageBucket" /></div>
-          <div class="field full"><label for="firebasePath">Database Path</label><input class="input" id="firebasePath" value="pms" /></div>
-        </div>
-        <details class="settings-help"><summary>Supabase Table Setup SQL</summary><span class="code-note">create table public.pms_data (
-  key text primary key,
-  value jsonb not null,
-  updated_at timestamptz default now()
-);
-alter table public.pms_data enable row level security;
-alter publication supabase_realtime add table public.pms_data;
--- For a private app, replace this with authenticated-user policies.</span></details>
-        <p class="settings-help">GitHub Pages တွင် ထည့်သွင်းမည့် Supabase key သည် anon/publishable key သာ ဖြစ်ရပါမည်။ Database တွင် RLS နှင့် policy များကို မှန်ကန်စွာ သတ်မှတ်ပါ။</p>
-        <div class="form-actions"><button type="button" class="btn secondary" id="cancelSettingsModal">မလုပ်တော့ပါ</button><button type="submit" class="btn primary" id="connectDatabase">Connect &amp; Sync</button></div>
       </form>
     </div>
   </div>
+
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-database-compat.js"></script>
   <script>
+    let db;
+    const dbReq = indexedDB.open('PropertyImagesDB', 4);
+    dbReq.onupgradeneeded = (e) => {
+      db = e.target.result;
+      if (!db.objectStoreNames.contains('images')) db.createObjectStore('images', { keyPath: 'id' });
+      if (!db.objectStoreNames.contains('contracts')) db.createObjectStore('contracts', { keyPath: 'id' });
+    };
+     dbReq.onsuccess = (e) => {
+       db = e.target.result;
+       render();
+       initializeStoredDatabase().catch(err => updateConnectionStatus('local', `Remote database မချိတ်နိုင်သေးပါ။ Local data ကို ဆက်သုံးနေပါသည်။ ${err.message || ''}`, true));
+     };
+
+    function saveToDB(storeName, id, fileBlob, fileName) {
+      return new Promise((resolve) => {
+        if (!db) return resolve(null);
+        const tx = db.transaction(storeName, 'readwrite');
+        const store = tx.objectStore(storeName);
+        store.put({ id, blob: fileBlob, name: fileName, type: fileBlob.type });
+        tx.oncomplete = () => resolve(id);
+      });
+    }
+
+    function getFromDB(storeName, id) {
+      return new Promise((resolve) => {
+        if (!db) return resolve(null);
+        const tx = db.transaction(storeName, 'readonly');
+        const store = tx.objectStore(storeName);
+        const req = store.get(id);
+        req.onsuccess = () => resolve(req.result ? req.result : null);
+        req.onerror = () => resolve(null);
+      });
+    }
+
+    const saveImageToDB = (id, blob) => saveToDB('images', id, blob);
+    const getImageFromDB = async (id) => {
+      const res = await getFromDB('images', id);
+      return res ? URL.createObjectURL(res.blob) : null;
+    };
+
     const navItems=[
-      ['dashboard','◆','Dashboard'],['properties','⌂','အိမ်ခြံမြေများ'],['clients','☺','ဖောက်သည်များ'],['pipeline','▤','အရောင်းအဝယ်လုပ်ငန်းစဉ်'],
-      ['agents','☰','အေးဂျင့်များ'],['leases','▦','ငှားရမ်းစာချုပ်များ'],['invoices','$','ငွေတောင်းခံလွှာများ'],['maintenance','⚙','ပြုပြင်ထိန်းသိမ်းမှု']
+      ['dashboard','◆','Dashboard'],
+      ['properties','⌂','အိမ်ခြံမြေများ'],
+      ['rentals','🔑','အိမ်ငှား ဝန်ဆောင်မှု'],
+      ['leases','▦','ငှားရမ်းစာချုပ်များ'],
+      ['clients','☺','ဖောက်သည်များ'],
+      ['pipeline','▤','အရောင်းအဝယ် လုပ်ငန်းစဉ်'],
+      ['salesContracts','🛒','အရောင်းအဝယ် စာချုပ်များ'],
+      ['agents','☰','အေးဂျင့်များ'],
+      ['invoices','$','ငွေတောင်းခံလွှာများ'],
+      ['maintenance','⚙','ပြုပြင်ထိန်းသိမ်းမှု']
     ];
     const seed={
       properties:[
-        {id:1,title:'ရွှေတောင်ကွန်ဒို အခန်း ၅၀၂',type:'ကွန်ဒို',listing:'ရောင်းရန်',status:'ရရှိနိုင်',price:185000000,township:'ဗဟန်း',city:'ရန်ကုန်',beds:2,baths:2},
-        {id:2,title:'လှိုင်မြို့နယ် မိသားစုအိမ်',type:'အိမ်',listing:'ငှားရန်',status:'ငှားရမ်းပြီး',price:2500000,township:'လှိုင်',city:'ရန်ကုန်',beds:3,baths:2},
-        {id:3,title:'မင်္ဂလာဒုံ မြေကွက်',type:'မြေ',listing:'ရောင်းရန်',status:'ဆိုင်းငံ့',price:95000000,township:'မင်္ဂလာဒုံ',city:'ရန်ကုန်',beds:0,baths:0}
+        {id:1,title:'ရွှေတောင်ကွန်ဒို အခန်း ၅၀၂',type:'ကွန်ဒို',listing:'ရောင်းရန်',status:'ရရှိနိုင်',price:185000000,township:'ဗဟန်း',city:'ရန်ကုန်',beds:2,baths:2,owner:'ဦးမင်းထက်',phone:'09-780000003',mapUrl:'https://maps.google.com',imageIds:[],sourceType:'direct',agentId:''},
+        {id:2,title:'လှိုင်မြို့နယ် မိသားစုအိမ်',type:'အိမ်',listing:'ငှားရန်',status:'ငှားရမ်းပြီး',price:2500000,township:'လှိုင်',city:'ရန်ကုန်',beds:3,baths:2,owner:'ဒေါ်သန္တာ',phone:'09-780000002',mapUrl:'',imageIds:[],sourceType:'agent',agentId:1}
       ],
+      rentals:[
+        {id:1,propertyId:2,propertyTitle:'လှိုင်မြို့နယ် မိသားစုအိမ်',tenant:'ဒေါ်သန္တာ',owner:'ဒေါ်သန္တာ',stage:'စာချုပ်ချုပ်ပြီး',monthlyPrice:2500000,deposit:5000000,period:'1y',startDate:'2026-01-01',endDate:'2026-12-31',totalFeeOpt:'100',totalCommission:2500000,agents:[],contractDocId:'',contractFileName:''}
+      ],
+      sales:[],
       clients:[
-        {id:1,name:'မောင်အောင်',type:'ဝယ်သူ',phone:'09-780000001',budget:'သိန်း ၅၀၀–၁,၀၀၀',preference:'ဗဟန်း'},
-        {id:2,name:'ဒေါ်သန္တာ',type:'ငှားသူ',phone:'09-780000002',budget:'တစ်လ ၂၀ သိန်းအထိ',preference:'လှိုင်'},
+        {id:1,name:'မောင်အောင်',type:'ဝယ်သူ',phone:'09-780000001',budget:'သိန်း ၅၀၀',preference:'ဗဟန်း'},
+        {id:2,name:'ဒေါ်သန္တာ',type:'ငှားသူ',phone:'09-780000002',budget:'တစ်လ ၂၀ သိန်း',preference:'လှိုင်'},
         {id:3,name:'ဦးမင်းထက်',type:'ရောင်းသူ',phone:'09-780000003',budget:'-',preference:'မရမ်းကုန်း'}
       ],
       agents:[
-        {id:1,name:'မစုစု',agency:'Golden Key Realty',phone:'09-770000001',status:'အသက်ဝင်',rating:4.8,won:12},
-        {id:2,name:'ဦးဇော်ဝင်း',agency:'Yangon Home',phone:'09-770000002',status:'အသက်ဝင်',rating:4.6,won:9},
-        {id:3,name:'ဒေါ်ခင်မေ',agency:'CityNest',phone:'09-770000003',status:'အသက်ဝင်',rating:4.4,won:7}
+        {id:1,name:'မစုစု',agency:'Golden Key',phone:'09-770000001',status:'အသက်ဝင်',rating:4.8,won:12,defaultFeePct:2},
+        {id:2,name:'ဦးဇော်ဝင်း',agency:'Yangon Home',phone:'09-770000002',status:'အသက်ဝင်',rating:4.6,won:9,defaultFeePct:2}
       ],
-      leases:[
-        {property:'လှိုင်မြို့နယ် မိသားစုအိမ်',tenant:'ဒေါ်သန္တာ',rent:2500000,start:'01 Jan 2026',end:'31 Dec 2026',status:'အသက်ဝင်'}
-      ],
+      leases:[],
       invoices:[
-        {property:'လှိုင်မြို့နယ် မိသားစုအိမ်',tenant:'ဒေါ်သန္တာ',type:'အိမ်ငှားခ',amount:2500000,due:'05 Sep 2026',status:'ဆိုင်းငံ့'},
-        {property:'လှိုင်မြို့နယ် မိသားစုအိမ်',tenant:'ဒေါ်သန္တာ',type:'ရေ',amount:35000,due:'05 Aug 2026',status:'ပေးချေပြီး'}
+        {id:1,property:'လှိုင်မြို့နယ် မိသားစုအိမ်',tenant:'ဒေါ်သန္တာ',type:'အိမ်ငှားခ',amount:2500000,due:'2026-09-05',status:'ဆိုင်းငံ့'}
       ],
       maintenance:[
-        {property:'လှိုင်မြို့နယ် မိသားစုအိမ်',title:'ရေချိုးခန်းပိုက် ယိုစိမ့်ခြင်း',description:'ရေချိုးခန်းအတွင်းရှိ ပိုက်မှ ရေယိုနေပါသည်။',tenant:'ဒေါ်သန္တာ',priority:'မြင့်',status:'ဖွင့်ထား'}
+        {id:1,property:'လှိုင်မြို့နယ် မိသားစုအိမ်',title:'ရေချိုးခန်းပိုက် ယိုစိမ့်ခြင်း',description:'ရေချိုးခန်းအတွင်းရှိ ပိုက်မှ ရေယိုနေပါသည်။',tenant:'ဒေါ်သန္တာ',priority:'မြင့်',status:'ဖွင့်ထား'}
       ],
-      deals:[]
+      deals:[
+        {id:1,title:'ရွှေတောင်ကွန်ဒို အရောင်းအဝယ်',propertyId:1,propertyTitle:'ရွှေတောင်ကွန်ဒို အခန်း ၅၀၂',client:'မောင်အောင်',owner:'ဦးမင်းထက်',ownerPhone:'09-780000003',listingType:'ရောင်းရန်',targetPrice:185000000,stage:'စာချုပ်ချုပ်ပြီး',closedPrice:185000000,value:185000000,commPercent:2,totalCommission:3700000,agents:[{agentId:1,name:'မစုစု',pct:100}],contractDocId:'',contractFileName:'',date:'2026-03-01', startDate:'2026-03-01', endDate:'2027-02-28'}
+      ]
     };
-    // Clear the previous demo pipeline records once, while preserving future user-created deals.
-    if(localStorage.getItem('pms_deals_cleared_v1')!=='1'){
-      localStorage.removeItem('pms_deals');
-      localStorage.setItem('pms_deals_cleared_v1','1');
-    }
+    
     const load=(key)=>{try{return JSON.parse(localStorage.getItem('pms_'+key))||seed[key]}catch(e){return seed[key]}};
-     let remoteDb=null;
-     const save=(key,value)=>{localStorage.setItem('pms_'+key,JSON.stringify(value));if(remoteDb?.connected)remoteSave(key,value)};
     const data={};Object.keys(seed).forEach(k=>data[k]=load(k));
-     const state={page:'dashboard',user:load('user')||null};
-     const dataKeys=Object.keys(seed);
-     function setLocalData(key,value){if(Object.prototype.hasOwnProperty.call(data,key)){data[key]=value;localStorage.setItem('pms_'+key,JSON.stringify(value))}}
-     async function remoteSave(key,value){try{if(!remoteDb?.connected)return;if(remoteDb.provider==='supabase'){const {error}=await remoteDb.client.from(remoteDb.table).upsert({key,value,updated_at:new Date().toISOString()});if(error)throw error}if(remoteDb.provider==='firebase')await remoteDb.ref.child(key).set(value)}catch(error){setConnectionStatus(`Sync error: ${error.message||error}`,false)}}
-     function setConnectionStatus(message,ok=false){const el=document.getElementById('connectionStatus');if(!el)return;el.textContent=message;el.className=`connection-status ${ok?'ok':'error'}`}
-     function closeRemote(){if(remoteDb?.provider==='supabase'&&remoteDb.channel)remoteDb.client.removeChannel(remoteDb.channel);if(remoteDb?.provider==='firebase'&&remoteDb.listener)remoteDb.ref.off('value',remoteDb.listener);remoteDb=null}
-     async function connectSupabase(config){if(!window.supabase?.createClient)throw new Error('Supabase library မတင်နိုင်ပါ။ Internet connection ကိုစစ်ပါ။');const client=window.supabase.createClient(config.url,config.key);const {data:rows,error}=await client.from(config.table).select('key,value');if(error)throw error;remoteDb={provider:'supabase',client,table:config.table,connected:true,channel:null};if(rows?.length){rows.forEach(row=>setLocalData(row.key,row.value));}else{for(const key of dataKeys)await remoteSave(key,data[key])}remoteDb.channel=client.channel('pms-data-realtime').on('postgres_changes',{event:'*',schema:'public',table:config.table},payload=>{const row=payload.new;if(row?.key&&dataKeys.includes(row.key)){setLocalData(row.key,row.value);render()}}).subscribe()}
-     async function connectFirebase(config){if(!window.firebase?.database)throw new Error('Firebase library မတင်နိုင်ပါ။ Internet connection ကိုစစ်ပါ။');const appName='neazt-pms';let app=window.firebase.apps.find(item=>item.name===appName);if(!app)app=window.firebase.initializeApp(config,appName);const db=window.firebase.database(app),ref=db.ref(config.path);const snapshot=await ref.once('value'),remoteValue=snapshot.val();remoteDb={provider:'firebase',app,db,ref,connected:true,listener:null};if(remoteValue&&dataKeys.some(key=>remoteValue[key]))dataKeys.forEach(key=>{if(remoteValue[key]!==undefined)setLocalData(key,remoteValue[key])});else for(const key of dataKeys)await remoteSave(key,data[key]);const listener=snap=>{const value=snap.val()||{};dataKeys.forEach(key=>{if(value[key]!==undefined)setLocalData(key,value[key])});render()};remoteDb.listener=listener;ref.on('value',listener)}
-     function readDatabaseConfig(){const provider=document.getElementById('databaseProvider').value;if(provider==='supabase')return{provider,url:document.getElementById('supabaseUrl').value.trim().replace(/\/$/,''),key:document.getElementById('supabaseAnonKey').value.trim(),table:document.getElementById('supabaseTable').value.trim()||'pms_data'};if(provider==='firebase')return{provider,databaseURL:document.getElementById('firebaseDatabaseUrl').value.trim(),apiKey:document.getElementById('firebaseApiKey').value.trim(),projectId:document.getElementById('firebaseProjectId').value.trim(),appId:document.getElementById('firebaseAppId').value.trim(),messagingSenderId:document.getElementById('firebaseMessagingSenderId').value.trim(),authDomain:document.getElementById('firebaseAuthDomain').value.trim(),storageBucket:document.getElementById('firebaseStorageBucket').value.trim(),path:document.getElementById('firebasePath').value.trim()||'pms'};return{provider:'local'}}
-     function fillDatabaseSettings(config){const provider=config?.provider||'local';document.getElementById('databaseProvider').value=provider;document.getElementById('supabaseUrl').value=config?.url||'';document.getElementById('supabaseAnonKey').value=config?.key||'';document.getElementById('supabaseTable').value=config?.table||'pms_data';document.getElementById('firebaseDatabaseUrl').value=config?.databaseURL||'';document.getElementById('firebaseApiKey').value=config?.apiKey||'';document.getElementById('firebaseProjectId').value=config?.projectId||'';document.getElementById('firebaseAppId').value=config?.appId||'';document.getElementById('firebaseMessagingSenderId').value=config?.messagingSenderId||'';document.getElementById('firebaseAuthDomain').value=config?.authDomain||'';document.getElementById('firebaseStorageBucket').value=config?.storageBucket||'';document.getElementById('firebasePath').value=config?.path||'pms';toggleDatabaseFields()}
-     function toggleDatabaseFields(){const provider=document.getElementById('databaseProvider').value;document.getElementById('supabaseFields').style.display=provider==='supabase'?'grid':'none';document.getElementById('firebaseFields').style.display=provider==='firebase'?'grid':'none'}
-     async function connectDatabase(){const config=readDatabaseConfig(),button=document.getElementById('connectDatabase');button.disabled=true;button.textContent='Connecting…';try{closeRemote();if(config.provider==='local'){localStorage.removeItem('pms_db_config');setConnectionStatus('Local Browser Storage — ချိတ်ဆက်မှု ဖြုတ်ထားပါသည်',true)}else{if(config.provider==='supabase'&&(!config.url||!config.key))throw new Error('Supabase URL နှင့် Anon Key ထည့်ပါ။');if(config.provider==='firebase'&&(!config.databaseURL||!config.apiKey||!config.projectId||!config.appId))throw new Error('Firebase လိုအပ်သော Config အချက်အလက်များ ထည့်ပါ။');if(config.provider==='supabase')await connectSupabase(config);else await connectFirebase(config);localStorage.setItem('pms_db_config',JSON.stringify(config));setConnectionStatus(`${config.provider==='supabase'?'Supabase':'Firebase'} Realtime connected`,true);render()}closeSettingsModal()}catch(error){closeRemote();const networkError=error?.name==='TypeError'&&/fetch/i.test(error?.message||'');setConnectionStatus(networkError?'Connection failed: Network request မအောင်မြင်ပါ။ Supabase Project URL (https://…supabase.co), Internet နှင့် GitHub Pages HTTPS ကို စစ်ပါ။':'Connection failed: '+(error.message||error),false)}finally{button.disabled=false;button.textContent='Connect & Sync'}}
-     function openSettingsModal(){const config=load('db_config')||{provider:'local'};fillDatabaseSettings(config);setConnectionStatus(config.provider&&config.provider!=='local'?`${config.provider==='supabase'?'Supabase':'Firebase'} — saved settings`:'Local Browser Storage — ချိတ်ဆက်ရန် Provider ရွေးပါ',config.provider==='local');document.getElementById('settingsModal').classList.add('open')}
-     function closeSettingsModal(){document.getElementById('settingsModal').classList.remove('open')}
+    const state={page:'dashboard',user:load('user')||null,dashMonth:'',dashYear:''};
+    const pageNames={dashboard:'Dashboard',properties:'အိမ်ခြံမြေများ',rentals:'အိမ်ငှား ဝန်ဆောင်မှု',leases:'ငှားရမ်းစာချုပ်များ',clients:'ဖောက်သည်များ',pipeline:'အရောင်းအဝယ် လုပ်ငန်းစဉ်',salesContracts:'အရောင်းအဝယ် စာချုပ်များ',agents:'အေးဂျင့်များ',invoices:'ငွေတောင်းခံလွှာများ',maintenance:'ပြုပြင်ထိန်းသိမ်းမှု'};
+     const databaseKeys=Object.keys(seed);
+     let databaseSettings=loadDatabaseSettings();
+     let databaseConnection={provider:'local',connected:true};
+     let databaseSaveTimer=null;
+     let databaseSyncInProgress=false;
+    
     const esc=(s)=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
     const mmk=(n)=>Number(n||0).toLocaleString('en-US')+' ကျပ်';
-    const report=(n)=>{n=Number(n||0);if(n>=1000000)return (n/1000000).toFixed(2).replace(/\.?0+$/,'')+' Million';if(n>=100000)return (n/100000).toFixed(2).replace(/\.?0+$/,'')+' Lakh';return n.toLocaleString('en-US')};
     const badge=(text,type='')=>`<span class="badge ${type}">${esc(text)}</span>`;
-    const pageNames={dashboard:'Dashboard',properties:'အိမ်ခြံမြေများ',clients:'ဖောက်သည်များ',pipeline:'အရောင်းအဝယ်လုပ်ငန်းစဉ်',agents:'အေးဂျင့်များ',leases:'ငှားရမ်းစာချုပ်များ',invoices:'ငွေတောင်းခံလွှာများ',maintenance:'ပြုပြင်ထိန်းသိမ်းမှု'};
     function drawNav(){document.getElementById('nav').innerHTML=navItems.map(([id,icon,label])=>`<button class="${state.page===id?'active':''}" data-page="${id}"><span>${icon}</span>${label}</button>`).join('');document.querySelectorAll('[data-page]').forEach(b=>b.onclick=()=>{state.page=b.dataset.page;document.getElementById('sidebar').classList.remove('open');render()})}
-    function dashboard(){
-      const total=data.deals.filter(d=>d.stage==='အောင်မြင်စွာပိတ်ပြီး').reduce((s,d)=>s+d.value,0)||315000000;
-      const stages=[['အသစ်',2],['စုံစမ်းမေးမြန်းမှု',3],['အိမ်ခြံမြေကြည့်ရှုမှု',4],['ညှိနှိုင်းမှု',5],['စာချုပ်ချုပ်ပြီး',3],['အောင်မြင်စွာပိတ်ပြီး',8]];
-      return `<div class="grid stats">
-        <div class="card stat"><label>Total Revenue (Closed Won)</label><strong>${report(total)}</strong><p>Closed-won deal values</p></div>
-        <div class="card stat"><label>Active Listings</label><strong>${data.properties.filter(p=>p.status==='ရရှိနိုင်').length}</strong><p>Properties currently available</p></div>
-        <div class="card stat"><label>Deals in Pipeline</label><strong>${data.deals.length}</strong><p>Excludes closed deals</p></div>
-        <div class="card stat"><label>Monthly Commission Payouts</label><strong>${mmk(4500000)}</strong><p>Paid this calendar month</p></div>
-      </div>
-      <div class="grid stats three"><div class="card stat"><label>Overdue Invoices</label><strong>1</strong><p>${mmk(2500000)}</p></div><div class="card stat"><label>Leases Expiring (30d)</label><strong>0</strong><p>Renewal alerts pending</p></div><div class="card stat"><label>Open Maintenance Requests</label><strong>${data.maintenance.filter(x=>x.status==='ဖွင့်ထား').length}</strong><p>Open + In Progress</p></div></div>
-      <div class="grid section-grid"><section class="card panel"><h2>Deals by Pipeline Stage</h2>${stages.map(([name,n])=>`<div class="bar-row"><span>${name}</span><div class="bar"><i style="width:${n*10}%"></i></div><b>${n}</b></div>`).join('')}</section><section class="card panel"><h2>Top Performing Agents</h2>${data.agents.map((a,i)=>`<div class="agent-row"><div class="agent-name"><span class="rank">${i+1}</span><div><b>${esc(a.name)}</b><small style="display:block;color:var(--muted)">${esc(a.agency)} · ★ ${a.rating}</small></div></div><div style="text-align:right"><b>${mmk((i+1)*42000000)}</b><small style="display:block;color:var(--muted)">${a.won} won</small></div></div>`).join('')}</section></div>`;
+
+    function calculateMyAgentFee(d) {
+      const totalComm = Number(d.totalCommission || (d.closedPrice * (d.commPercent||2)/100) || 0);
+      let paidToAgents = 0;
+      if (Array.isArray(d.agents) && d.agents.length > 0) {
+        d.agents.forEach(a => { paidToAgents += (totalComm * Number(a.pct||0)) / 100; });
+      }
+      return Math.max(0, totalComm - paidToAgents);
     }
+
+    function calculateRentalMyAgentFee(r) {
+      const totalComm = Number(r.totalCommission || 0);
+      let paidToAgents = 0;
+      if (Array.isArray(r.agents) && r.agents.length > 0) {
+        r.agents.forEach(a => { paidToAgents += (totalComm * Number(a.pct||0)) / 100; });
+      }
+      return Math.max(0, totalComm - paidToAgents);
+    }
+
+    function dashboard(){
+      const filteredDeals = data.deals.filter(d => {
+        if (!d.date) return true;
+        const [y, m] = d.date.split('-');
+        if (state.dashYear && y !== state.dashYear) return false;
+        if (state.dashMonth && m !== state.dashMonth) return false;
+        return true;
+      });
+
+      const filteredRentals = data.rentals.filter(r => {
+        if (!r.startDate) return true;
+        const [y, m] = r.startDate.split('-');
+        if (state.dashYear && y !== state.dashYear) return false;
+        if (state.dashMonth && m !== state.dashMonth) return false;
+        return true;
+      });
+
+      const salesRev = filteredDeals.filter(d => d.stage === 'စာချုပ်ချုပ်ပြီး' && d.listingType === 'ရောင်းရန်').reduce((s, d) => s + calculateMyAgentFee(d), 0);
+      const rentalSalesRev = filteredDeals.filter(d => d.stage === 'စာချုပ်ချုပ်ပြီး' && d.listingType && d.listingType.includes('ငှား')).reduce((s, d) => s + calculateMyAgentFee(d), 0);
+      const rentalModuleRev = filteredRentals.filter(r => r.stage === 'စာချုပ်ချုပ်ပြီး').reduce((s, r) => s + calculateRentalMyAgentFee(r), 0);
+      const totalRevenue = salesRev + rentalSalesRev + rentalModuleRev;
+      const pendingInvoices = data.invoices.filter(i=>i.status!=='ပေးချေပြီး');
+      const pendingTotal = pendingInvoices.reduce((s,i)=>s+Number(i.amount||0),0);
+
+      setTimeout(() => drawPieChart(salesRev + rentalSalesRev, rentalModuleRev), 100);
+
+      let yearOptions = '<option value="">နှစ် အားလုံး (၂၀၂၅-၂၀၇၅)</option>';
+      for(let y = 2025; y <= 2075; y++) {
+        yearOptions += `<option value="${y}" ${state.dashYear===String(y)?'selected':''}>${y}</option>`;
+      }
+
+      return `
+      <div class="toolbar" style="background:#fff;padding:12px 16px;border-radius:10px;border:1px solid var(--line);margin-bottom:16px;">
+        <span style="font-weight:bold;font-size:13px">📊 Dashboard Filter:</span>
+        <select class="select" id="dashYearFilter" style="width:160px">${yearOptions}</select>
+        <select class="select" id="dashMonthFilter" style="width:140px">
+          <option value="">လ အားလုံး</option>
+          <option value="01" ${state.dashMonth==='01'?'selected':''}>ဇန်နဝါရီ</option>
+          <option value="02" ${state.dashMonth==='02'?'selected':''}>ဖေဖော်ဝါရီ</option>
+          <option value="03" ${state.dashMonth==='03'?'selected':''}>မတ်</option>
+          <option value="04" ${state.dashMonth==='04'?'selected':''}>ဧပြီ</option>
+          <option value="05" ${state.dashMonth==='05'?'selected':''}>မေ</option>
+          <option value="06" ${state.dashMonth==='06'?'selected':''}>ဇွန်</option>
+          <option value="07" ${state.dashMonth==='07'?'selected':''}>ဇူလိုင်</option>
+          <option value="08" ${state.dashMonth==='08'?'selected':''}>သြဂုတ်</option>
+          <option value="09" ${state.dashMonth==='09'?'selected':''}>စက်တင်ဘာ</option>
+          <option value="10" ${state.dashMonth==='10'?'selected':''}>အောက်တိုဘာ</option>
+          <option value="11" ${state.dashMonth==='11'?'selected':''}>နိုဝင်ဘာ</option>
+          <option value="12" ${state.dashMonth==='12'?'selected':''}>ဒီဇင်ဘာ</option>
+        </select>
+        <button class="btn secondary" id="clearDashFilter">Filter ဖြုတ်ရန်</button>
+      </div>
+
+      <div class="grid stats">
+        <div class="card stat"><label>Total Revenue (My Agent Fee)</label><strong>${mmk(totalRevenue)}</strong><p>Sales &amp; Rentals My Agent Fee</p></div>
+        <div class="card stat"><label>Active Listings</label><strong>${data.properties.filter(p=>p.status==='ရရှိနိုင်').length}</strong><p>Properties available</p></div>
+        <div class="card stat"><label>Deals in Pipeline</label><strong>${data.deals.length}</strong><p>Active deals</p></div>
+        <div class="card stat"><label>Pending Invoices</label><strong>${pendingInvoices.length}</strong><p>${mmk(pendingTotal)}</p></div>
+      </div>
+
+      <div class="grid section-grid">
+        <section class="card panel">
+          <h2>Revenue Breakdown (Sales vs Rentals)</h2>
+          <div style="display:flex;align-items:center;justify-content:center;flex-direction:column;gap:15px;padding:10px">
+            <canvas id="revenuePieChart" width="220" height="220" style="max-width:100%"></canvas>
+            <div style="display:flex;gap:20px;font-size:13px">
+              <span><i style="display:inline-block;width:12px;height:12px;background:#158457;border-radius:3px;margin-right:5px"></i> အရောင်း: <b>${mmk(salesRev + rentalSalesRev)}</b></span>
+              <span><i style="display:inline-block;width:12px;height:12px;background:#58a8dc;border-radius:3px;margin-right:5px"></i> အငှား: <b>${mmk(rentalModuleRev)}</b></span>
+            </div>
+          </div>
+        </section>
+        
+        <section class="card panel">
+          <h2>Top Performing Agents</h2>
+          ${data.agents.map((a,i)=>`<div class="agent-row"><div class="agent-name"><span class="rank">${i+1}</span><div><b>${esc(a.name)}</b><small style="display:block;color:var(--muted)">${esc(a.agency)} · ★ ${a.rating}</small></div></div><div style="text-align:right"><b>${mmk((i+1)*1200000)}</b><small style="display:block;color:var(--muted)">${a.won} won</small></div></div>`).join('')}
+        </section>
+      </div>`;
+    }
+
+    function drawPieChart(salesVal, rentalVal) {
+      const canvas = document.getElementById('revenuePieChart');
+      if (!canvas || !canvas.getContext) return;
+      const ctx = canvas.getContext('2d');
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      const total = salesVal + rentalVal;
+      const cx = canvas.width / 2, cy = canvas.height / 2, radius = 90;
+      if (total === 0) {
+        ctx.beginPath(); ctx.arc(cx, cy, radius, 0, 2 * Math.PI); ctx.fillStyle = '#e6eee9'; ctx.fill();
+        ctx.fillStyle = '#6b7771'; ctx.font = '12px sans-serif'; ctx.textAlign = 'center'; ctx.fillText('ဒေတာ မရှိသေးပါ', cx, cy);
+        return;
+      }
+      let startAngle = 0;
+      [{ value: salesVal, color: '#158457' }, { value: rentalVal, color: '#58a8dc' }].forEach(slice => {
+        if (slice.value <= 0) return;
+        const sliceAngle = (slice.value / total) * 2 * Math.PI;
+        ctx.beginPath(); ctx.moveTo(cx, cy); ctx.arc(cx, cy, radius, startAngle, startAngle + sliceAngle); ctx.closePath();
+        ctx.fillStyle = slice.color; ctx.fill();
+        startAngle += sliceAngle;
+      });
+    }
+
     function properties(){
       return `<div class="toolbar"><input class="input" id="propertySearch" placeholder="ခေါင်းစဉ် / မြို့နယ် ရှာရန်…" /><select class="select" id="propertyStatus"><option value="">အခြေအနေအားလုံး</option><option>ရရှိနိုင်</option><option>ဆိုင်းငံ့</option><option>ငှားရမ်းပြီး</option><option>ရောင်းပြီး</option></select><button class="btn primary push" id="addProperty">+ အိမ်ခြံမြေထည့်ရန်</button></div><div class="grid cards" id="propertyCards">${propertyCards(data.properties)}</div>`;
     }
-    function propertyCards(items){if(!items.length)return '<div class="empty">အိမ်ခြံမြေ မတွေ့ပါ။</div>';return items.map(p=>`<article class="card property"><div style="display:flex;justify-content:space-between;gap:7px"><h3>${esc(p.title)}</h3>${badge(p.status,p.status==='ရရှိနိုင်'?'green':p.status==='ဆိုင်းငံ့'?'yellow':'blue')}</div><p>${esc(p.type)} · ${esc(p.listing)} · ${esc(p.township)}, ${esc(p.city)}</p><div class="price">${mmk(p.price)}${p.listing==='ငှားရန်'?'<small style="font-size:10px;color:var(--muted)"> /လ</small>':''}</div><p>${p.beds} အိပ်ခန်း · ${p.baths} ရေချိုးခန်း</p><div class="property-foot"><button class="btn secondary" data-edit="${p.id}">ပြင်ရန်</button><button class="btn danger" data-delete="${p.id}">ဖျက်ရန်</button></div></article>`).join('')}
-     let editingPropertyId=null;
-     function propertyField(id){return document.getElementById(id)}
-     function openPropertyForm(id=null){editingPropertyId=id;const p=id==null?{}:data.properties.find(item=>item.id==id)||{};document.getElementById('propertyModalTitle').textContent=id==null?'အိမ်ခြံမြေထည့်ရန်':'အိမ်ခြံမြေပြင်ရန်';propertyField('propertyTitle').value=p.title||'';propertyField('propertyListing').value=p.listing||'ရောင်းရန်';propertyField('propertyType').value=p.type||'အိမ်';propertyField('propertyStatusForm').value=p.status||'ရရှိနိုင်';propertyField('propertyPrice').value=p.price||'';propertyField('propertyTownship').value=p.township||'';propertyField('propertyCity').value=p.city||'ရန်ကုန်';propertyField('propertyAddress').value=p.address||'';propertyField('propertyBeds').value=p.beds??0;propertyField('propertyBaths').value=p.baths??0;propertyField('propertySize').value=p.size||'';propertyField('propertyOwner').value=p.owner||'';propertyField('propertyPhone').value=p.phone||'';propertyField('propertyDescription').value=p.description||'';document.getElementById('propertyModal').classList.add('open');setTimeout(()=>propertyField('propertyTitle').focus(),50)}
-     function closePropertyForm(){document.getElementById('propertyModal').classList.remove('open');editingPropertyId=null}
-     function savePropertyForm(event){event.preventDefault();const item={id:editingPropertyId??Date.now(),title:propertyField('propertyTitle').value.trim(),listing:propertyField('propertyListing').value,type:propertyField('propertyType').value,status:propertyField('propertyStatusForm').value,price:Number(propertyField('propertyPrice').value||0),township:propertyField('propertyTownship').value.trim(),city:propertyField('propertyCity').value.trim(),address:propertyField('propertyAddress').value.trim(),beds:Number(propertyField('propertyBeds').value||0),baths:Number(propertyField('propertyBaths').value||0),size:Number(propertyField('propertySize').value||0),owner:propertyField('propertyOwner').value.trim(),phone:propertyField('propertyPhone').value.trim(),description:propertyField('propertyDescription').value.trim()};if(editingPropertyId==null)data.properties.push(item);else{const index=data.properties.findIndex(p=>p.id==editingPropertyId);if(index>=0)data.properties[index]=item}save('properties',data.properties);closePropertyForm();render()}
-     function userInitials(user){const text=(user?.name||user?.email||'A').trim();return text.split(/\s+/).map(part=>part[0]).join('').slice(0,2).toUpperCase()}
-     function updateUserAvatar(){const avatar=document.getElementById('userAvatar');if(!avatar)return;avatar.textContent=state.user?userInitials(state.user):'A';avatar.title=state.user?`${state.user.name||state.user.email} · User Account`:'User Login'}
-     function openUserModal(){const logged=!!state.user;document.getElementById('userModalTitle').textContent=logged?'User Account':'User Login';document.getElementById('userLoginNotice').textContent=logged?`ဝင်ရောက်ထားသူ: ${state.user.name||state.user.email}`:'Standalone version အတွက် local user session ဖြစ်ပါသည်။';document.getElementById('loginName').value=logged?(state.user.name||''):'';document.getElementById('loginEmail').value=logged?(state.user.email||''):'';document.getElementById('loginPassword').value='';document.getElementById('loginName').disabled=logged;document.getElementById('loginEmail').disabled=logged;document.getElementById('loginPassword').required=!logged;document.getElementById('loginPassword').disabled=logged;document.getElementById('loginSubmit').style.display=logged?'none':'';document.getElementById('logoutUser').style.display=logged?'':'none';document.getElementById('userModal').classList.add('open');if(!logged)setTimeout(()=>document.getElementById('loginEmail').focus(),50)}
-     function closeUserModal(){document.getElementById('userModal').classList.remove('open')}
-     function loginUser(event){event.preventDefault();if(state.user)return;const email=document.getElementById('loginEmail').value.trim(),password=document.getElementById('loginPassword').value;if(!email||!password)return;const name=document.getElementById('loginName').value.trim()||email.split('@')[0];state.user={name,email};save('user',state.user);updateUserAvatar();closeUserModal()}
-     function logoutUser(){state.user=null;localStorage.removeItem('pms_user');updateUserAvatar();closeUserModal()}
-     const recordConfigs={
-       client:{title:'ဖောက်သည်ထည့်ရန်',key:'clients',fields:[['name','အမည်အပြည့်အစုံ','text',1],['type','အမျိုးအစား','select',1,['ဝယ်သူ','ရောင်းသူ','အိမ်ရှင်','ငှားသူ']],['phone','ဖုန်း','text',1],['email','အီးမေးလ်','email',0],['budget','ဘတ်ဂျက်','text',0],['preference','နှစ်သက်ရာ မြို့နယ်/အမျိုးအစား','text',0]]},
-       agent:{title:'အေးဂျင့်ထည့်ရန်',key:'agents',fields:[['name','အမည်အပြည့်အစုံ','text',1],['agency','အေဂျင်စီအမည်','text',0],['phone','ဖုန်း','text',1],['email','အီးမေးလ်','email',0],['license','လိုင်စင်နံပါတ်','text',0],['rating','အဆင့်သတ်မှတ်ချက် (၀-၅)','number',0]]},
-       deal:{title:'အရောင်းအဝယ်အသစ်',key:'deals',fields:[['title','အရောင်းအဝယ်ခေါင်းစဉ်','text',1],['client','ဖောက်သည်အမည်','text',1],['stage','အဆင့်','select',1,['အသစ်','စုံစမ်းမေးမြန်းမှု','အိမ်ခြံမြေကြည့်ရှုမှု','အရောင်းအဝယ်ညှိနှိုင်းမှု','စာချုပ်ချုပ်ပြီး','အောင်မြင်စွာပိတ်ပြီး']],['value','တန်ဖိုး (ကျပ်)','number',0],['date','အရောင်းအဝယ်ရက်စွဲ','date',1]]},
-       lease:{title:'စာချုပ်အသစ်',key:'leases',fields:[['property','အိမ်ခြံမြေ','text',1],['tenant','ငှားသူအမည်','text',1],['rent','လစဉ်ငှားခ (ကျပ်)','number',1],['start','စတင်ရက်','date',1],['end','ကုန်ဆုံးရက်','date',1]]},
-       invoice:{title:'ငွေတောင်းခံလွှာအသစ်',key:'invoices',fields:[['property','အိမ်ခြံမြေ','text',1],['tenant','ငှားသူအမည်','text',1],['type','အမျိုးအစား','select',1,['အိမ်ငှားခ','လျှပ်စစ်','ရေ','ပြုပြင်ထိန်းသိမ်းမှု','အခြား']],['amount','ပမာဏ (ကျပ်)','number',1],['due','ပေးရန်ရက်','date',1]]},
-       maintenance:{title:'ပြုပြင်ရန် တောင်းဆိုချက်အသစ်',key:'maintenance',fields:[['property','အိမ်ခြံမြေ','text',1],['title','ပြဿနာခေါင်းစဉ်','text',1],['tenant','ငှားသူအမည်','text',1],['priority','ဦးစားပေး','select',1,['နိမ့်','အလယ်အလတ်','မြင့်','အရေးပေါ်']],['description','ပြဿနာဖော်ပြချက်','textarea',0]]}
-     };
-     let activeRecordType=null;
-     function openRecordForm(type){const config=recordConfigs[type];if(!config)return;activeRecordType=type;document.getElementById('recordModalTitle').textContent=config.title;document.getElementById('recordFields').innerHTML=config.fields.map(([name,label,inputType,required,options])=>{const field=inputType==='textarea'?`<textarea class="input" id="record_${name}"></textarea>`:inputType==='select'?`<select class="select" id="record_${name}">${options.map(option=>`<option>${option}</option>`).join('')}</select>`:`<input class="input" id="record_${name}" type="${inputType}" ${required?'required':''} />`;return `<div class="field ${inputType==='textarea'?'full':''}"><label for="record_${name}">${label}${required?' *':''}</label>${field}</div>`}).join('');document.getElementById('recordModal').classList.add('open');setTimeout(()=>document.getElementById(`record_${config.fields[0][0]}`).focus(),50)}
-     function closeRecordForm(){document.getElementById('recordModal').classList.remove('open');activeRecordType=null}
-     function saveRecordForm(event){event.preventDefault();const config=recordConfigs[activeRecordType];if(!config)return;const values={};config.fields.forEach(([name])=>values[name]=document.getElementById(`record_${name}`).value.trim());let item={id:Date.now()};if(activeRecordType==='client')item={...item,name:values.name,type:values.type,phone:values.phone,email:values.email,budget:values.budget||'-',preference:values.preference||'-'};if(activeRecordType==='agent')item={...item,name:values.name,agency:values.agency||'-',phone:values.phone,email:values.email,status:'အသက်ဝင်',rating:Number(values.rating||0),won:0};if(activeRecordType==='deal')item={...item,title:values.title,client:values.client,stage:values.stage,value:Number(values.value||0),date:values.date};if(activeRecordType==='lease')item={...item,property:values.property,tenant:values.tenant,rent:Number(values.rent||0),start:values.start,end:values.end,status:'အသက်ဝင်'};if(activeRecordType==='invoice')item={...item,property:values.property,tenant:values.tenant,type:values.type,amount:Number(values.amount||0),due:values.due,status:'ဆိုင်းငံ့'};if(activeRecordType==='maintenance')item={...item,property:values.property,title:values.title,description:values.description,tenant:values.tenant,priority:values.priority,status:'ဖွင့်ထား'};data[config.key].push(item);save(config.key,data[config.key]);closeRecordForm();render()}
-    function clients(){return `<div class="toolbar"><input class="input" id="clientSearch" placeholder="အမည် / ဖုန်း ရှာရန်…" /><button class="btn primary push" id="addClient">+ ဖောက်သည်ထည့်ရန်</button></div><div class="card table-wrap"><table class="table"><thead><tr><th>အမည်</th><th>အမျိုးအစား</th><th>ဖုန်း</th><th>ဘတ်ဂျက်</th><th>နှစ်သက်ရာ</th><th></th></tr></thead><tbody id="clientRows">${clientRows(data.clients)}</tbody></table></div>`}
-    function clientRows(items){if(!items.length)return '<tr><td colspan="6" class="empty">ဖောက်သည် မတွေ့ပါ။</td></tr>';return items.map(c=>`<tr><td><b>${esc(c.name)}</b></td><td>${badge(c.type,'blue')}</td><td>${esc(c.phone)}</td><td>${esc(c.budget)}</td><td>${esc(c.preference)}</td><td><button class="btn secondary" data-client-delete="${c.id}">ဖျက်ရန်</button></td></tr>`).join('')}
-    function pipelineDeals(){const from=state.pipelineFrom||'',to=state.pipelineTo||'';return data.deals.filter(d=>(!from||d.date>=from)&&(!to||d.date<=to))}
-    function pipeline(){const stages=['အသစ်','စုံစမ်းမေးမြန်းမှု','အိမ်ခြံမြေကြည့်ရှုမှု','အရောင်းအဝယ်ညှိနှိုင်းမှု','စာချုပ်ချုပ်ပြီး','အောင်မြင်စွာပိတ်ပြီး'],items=pipelineDeals();return `<div class="toolbar"><label style="font-size:12px">Date (From) <input class="input" type="date" id="pipelineFrom" value="${state.pipelineFrom||''}" /></label><label style="font-size:12px">Date (To) <input class="input" type="date" id="pipelineTo" value="${state.pipelineTo||''}" /></label><select class="select" id="pipelineReportFormat"><option value="excel">Excel (.xls)</option><option value="pdf">PDF</option></select><button class="btn secondary" id="printPipelineReport">🖨 Report ထုတ်ရန်</button><button class="btn primary push" id="addDeal">+ အရောင်းအဝယ်အသစ်</button></div><div class="notice">${items.length} ခုကို ရွေးချယ်ထားသော ရက်အပိုင်းအခြားအရ ပြသထားပါသည်။ ရက်အပိုင်းအခြားမရွေးပါက မှတ်တမ်းအားလုံးကို ပြပါမည်။</div><div class="pipeline">${stages.map(s=>`<section class="card stage"><h3>${s} <span style="float:right;color:var(--muted)">${items.filter(d=>d.stage===s).length}</span></h3>${items.filter(d=>d.stage===s).map(d=>`<div class="deal"><b>${esc(d.title)}</b><small>${esc(d.client)} · ${esc(d.date||'-')}</small><strong style="display:block;margin-top:7px;color:var(--brand-dark)">${mmk(d.value)}</strong></div>`).join('')||'<div style="color:var(--muted);font-size:11px">အချက်အလက် မရှိပါ</div>'}</section>`).join('')}</div>`}
-    function downloadFile(content,name,type){const blob=new Blob([content],{type}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(url)}
-    function exportPipelineExcel(){const rows=[['Date','Deal Title','Client','Stage','Deal Value (MMK)'],...pipelineDeals().map(d=>[d.date||'',d.title||'',d.client||'',d.stage||'',d.value||0])];const xml=`<?xml version="1.0"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"><Worksheet ss:Name="Pipeline Report"><Table>${rows.map(row=>`<Row>${row.map(cell=>`<Cell><Data ss:Type="${typeof cell==='number'?'Number':'String'}">${esc(cell)}</Data></Cell>`).join('')}</Row>`).join('')}</Table></Worksheet></Workbook>`;downloadFile(xml,`pipeline-report-${new Date().toISOString().slice(0,10)}.xls`,'application/vnd.ms-excel')}
-    function printPipelinePdf(){const items=pipelineDeals(),from=state.pipelineFrom||'All',to=state.pipelineTo||'All',w=window.open('','_blank','width=900,height=700');if(!w){alert('Print window ကို browser မှ ပိတ်ထားပါသည်။ Pop-up ကို ခွင့်ပြုပါ။');return}w.document.write(`<html><head><title>Pipeline Report</title><style>body{font-family:Arial,"Noto Sans Myanmar",sans-serif;padding:28px;color:#17221d}h1{font-size:22px;margin:0 0 6px}p{color:#66736b;font-size:12px}table{width:100%;border-collapse:collapse;margin-top:22px;font-size:12px}th,td{text-align:left;border:1px solid #dce5df;padding:9px}th{background:#e8f6ef}@media print{button{display:none}}</style></head><body><h1>NEAZT Myanmar — Pipeline Report</h1><p>Date range: ${esc(from)} to ${esc(to)} · ${items.length} records</p><table><thead><tr><th>Date</th><th>Deal Title</th><th>Client</th><th>Stage</th><th>Deal Value (MMK)</th></tr></thead><tbody>${items.map(d=>`<tr><td>${esc(d.date||'-')}</td><td>${esc(d.title)}</td><td>${esc(d.client)}</td><td>${esc(d.stage)}</td><td>${Number(d.value||0).toLocaleString('en-US')}</td></tr>`).join('')||'<tr><td colspan="5">No records found.</td></tr>'}</tbody></table><script>window.onload=()=>{window.print()}<\/script></body></html>`);w.document.close()}
-    function agents(){return `<div class="toolbar"><input class="input" placeholder="အေးဂျင့် / အေဂျင်စီ ရှာရန်…" id="agentSearch" /><button class="btn primary push" id="addAgent">+ အေးဂျင့်ထည့်ရန်</button></div><div class="grid cards" id="agentCards">${agentCards(data.agents)}</div>`}
-    function agentCards(items){return items.map(a=>`<article class="card property"><div style="display:flex;justify-content:space-between"><h3>${esc(a.name)}</h3>${badge(a.status,'green')}</div><p>${esc(a.agency)}</p><p>${esc(a.phone)}</p><p style="color:#b7791f">★ ${a.rating} <span style="float:right;color:var(--muted)">ကော်မရှင် 5%</span></p><div class="property-foot"><button class="btn secondary">ပြင်ရန်</button><button class="btn secondary">ကော်မရှင်များ</button></div></article>`).join('')}
-     function leases(){return `<div class="toolbar"><label style="font-size:12px"><input type="checkbox" /> ရက် ၃၀ အတွင်း ကုန်ဆုံးမည့်စာချုပ်များသာ ပြရန်</label><button class="btn primary push" id="addLease">+ စာချုပ်အသစ်</button></div><div class="card table-wrap"><table class="table"><thead><tr><th>အိမ်ခြံမြေ</th><th>ငှားသူ</th><th>ငှားခ</th><th>စတင်ရက်</th><th>ကုန်ဆုံးရက်</th><th>အခြေအနေ</th></tr></thead><tbody>${data.leases.map(l=>`<tr><td><b>${esc(l.property)}</b></td><td>${esc(l.tenant)}</td><td>${mmk(l.rent)}/လ</td><td>${l.start}</td><td>${l.end}</td><td>${badge(l.status,'green')}</td></tr>`).join('')}</tbody></table></div>`}
-     function invoices(){return `<div class="grid stats three"><div class="card stat"><label>ပေးချေပြီး</label><strong>${mmk(35000)}</strong></div><div class="card stat"><label>ဆိုင်းငံ့</label><strong>${mmk(2500000)}</strong></div><div class="card stat"><label>ရက်လွန်</label><strong>${mmk(0)}</strong></div></div><div class="toolbar" style="margin-top:16px"><select class="select"><option>အခြေအနေအားလုံး</option></select><button class="btn secondary">ရက်လွန်အခြေအနေ ပြန်စစ်ရန်</button><button class="btn primary push" id="addInvoice">+ ငွေတောင်းခံလွှာအသစ်</button></div><div class="card table-wrap"><table class="table"><thead><tr><th>အိမ်ခြံမြေ</th><th>ငှားသူ</th><th>အမျိုးအစား</th><th>ပမာဏ</th><th>ပေးရန်ရက်</th><th>အခြေအနေ</th></tr></thead><tbody>${data.invoices.map(i=>`<tr><td>${esc(i.property)}</td><td>${esc(i.tenant)}</td><td>${esc(i.type)}</td><td>${mmk(i.amount)}</td><td>${i.due}</td><td>${badge(i.status,i.status==='ပေးချေပြီး'?'green':'yellow')}</td></tr>`).join('')}</tbody></table></div>`}
-     function maintenance(){return `<div class="toolbar"><select class="select"><option>အခြေအနေအားလုံး</option><option>ဖွင့်ထား</option><option>လုပ်ဆောင်နေဆဲ</option><option>ဖြေရှင်းပြီး</option></select><button class="btn primary push" id="addMaintenance">+ တောင်းဆိုချက်အသစ်</button></div><div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">${data.maintenance.map(r=>`<article class="card property"><div style="display:flex;justify-content:space-between"><h3>${esc(r.title)}</h3>${badge(r.status,'red')}</div><p>${esc(r.property)}</p><p>${esc(r.description)}</p><p>${esc(r.tenant)} မှ တင်ပြသည် · <b style="color:var(--amber)">${esc(r.priority)} ဦးစားပေး</b></p><div class="property-foot"><button class="btn secondary">စတင်လုပ်ဆောင်ရန်</button></div></article>`).join('')}</div>`}
-    function render(){drawNav();document.getElementById('pageTitle').textContent=pageNames[state.page];const views={dashboard:dashboard,properties:properties,clients:clients,pipeline:pipeline,agents:agents,leases:leases,invoices:invoices,maintenance:maintenance};document.getElementById('content').innerHTML=views[state.page]();bindPage();window.scrollTo({top:0,behavior:'smooth'})}
-    function bindPage(){
-       const search=document.getElementById('propertySearch');if(search){const filter=()=>{const q=search.value.toLowerCase(),status=document.getElementById('propertyStatus').value;document.getElementById('propertyCards').innerHTML=propertyCards(data.properties.filter(p=>(!q||`${p.title} ${p.township}`.toLowerCase().includes(q))&&(!status||p.status===status)));bindPropertyButtons()};search.oninput=filter;document.getElementById('propertyStatus').onchange=filter;document.getElementById('addProperty').onclick=()=>openPropertyForm();bindPropertyButtons()}
-       const cs=document.getElementById('clientSearch');if(cs)cs.oninput=()=>document.getElementById('clientRows').innerHTML=clientRows(data.clients.filter(c=>`${c.name} ${c.phone}`.toLowerCase().includes(cs.value.toLowerCase())));if(document.getElementById('addClient'))document.getElementById('addClient').onclick=()=>openRecordForm('client');document.querySelectorAll('[data-client-delete]').forEach(b=>b.onclick=()=>{data.clients=data.clients.filter(c=>c.id!=b.dataset.clientDelete);save('clients',data.clients);render()});
-       if(document.getElementById('addAgent'))document.getElementById('addAgent').onclick=()=>openRecordForm('agent');
-       if(document.getElementById('addDeal'))document.getElementById('addDeal').onclick=()=>openRecordForm('deal');
-       if(document.getElementById('addLease'))document.getElementById('addLease').onclick=()=>openRecordForm('lease');
-       if(document.getElementById('addInvoice'))document.getElementById('addInvoice').onclick=()=>openRecordForm('invoice');
-       if(document.getElementById('addMaintenance'))document.getElementById('addMaintenance').onclick=()=>openRecordForm('maintenance');
-      if(document.getElementById('pipelineFrom'))document.getElementById('pipelineFrom').onchange=e=>{state.pipelineFrom=e.target.value;render()};
-      if(document.getElementById('pipelineTo'))document.getElementById('pipelineTo').onchange=e=>{state.pipelineTo=e.target.value;render()};
-      if(document.getElementById('printPipelineReport'))document.getElementById('printPipelineReport').onclick=()=>document.getElementById('pipelineReportFormat').value==='pdf'?printPipelinePdf():exportPipelineExcel();
+
+    function propertyCards(items){
+      if(!items.length)return '<div class="empty">အိမ်ခြံမြေ မတွေ့ပါ။</div>';
+      return items.map(p=>{
+        const imgs = Array.isArray(p.imageIds) ? p.imageIds : [];
+        const sourceStr = p.sourceType === 'agent' ? `Agent ထံမှ (${getAgentName(p.agentId)})` : 'တိုက်ရိုက် အပ်နှံသည်';
+        return `<article class="card property">
+          <div style="display:flex;justify-content:space-between;gap:7px"><h3>${esc(p.title)}</h3>${badge(p.status,p.status==='ရရှိနိုင်'?'green':p.status==='ဆိုင်းငံ့'?'yellow':'blue')}</div>
+          <p>${esc(p.type)} · ${esc(p.listing)} · ${esc(p.township)}, ${esc(p.city)}</p>
+          <div class="price">${mmk(p.price)}${p.listing==='ငှားရန်'?'<small style="font-size:10px;color:var(--muted)"> /လ</small>':''}</div>
+          <p>${p.beds} အိပ်ခန်း · ${p.baths} ရေချိုးခန်း</p>
+          <p style="color:var(--muted);font-size:11px">📍 အရင်းအမြစ်: ${esc(sourceStr)}</p>
+          ${p.owner?`<p style="color:var(--brand-dark);font-weight:600">👤 ပိုင်ရှင်: ${esc(p.owner)} ${p.phone?`(${esc(p.phone)})`:''}</p>`:''}
+          <div class="property-foot">
+            <button class="btn secondary" data-send-agent="${p.id}">📲 Agent သို့ ပို့ရန်</button>
+            ${imgs.length > 0 ? `<button class="btn secondary" data-view-images="${p.id}">🖼 ပုံများ (${imgs.length})</button>` : ''}
+            <button class="btn secondary" data-edit="${p.id}">ပြင်ရန်</button>
+            <button class="btn danger" data-delete="${p.id}">ဖျက်ရန်</button>
+          </div>
+        </article>`;
+      }).join('');
     }
-     function bindPropertyButtons(){document.querySelectorAll('[data-delete]').forEach(b=>b.onclick=()=>{if(confirm('ဤအိမ်ခြံမြေကို ဖျက်မည်မှာ သေချာပါသလား။')){data.properties=data.properties.filter(p=>p.id!=b.dataset.delete);save('properties',data.properties);render()}});document.querySelectorAll('[data-edit]').forEach(b=>b.onclick=()=>openPropertyForm(b.dataset.edit))}
-     document.getElementById('propertyForm').onsubmit=savePropertyForm;
-     document.getElementById('closePropertyModal').onclick=closePropertyForm;
-     document.getElementById('cancelPropertyModal').onclick=closePropertyForm;
-     document.getElementById('propertyModal').onclick=e=>{if(e.target.id==='propertyModal')closePropertyForm()};
-     document.getElementById('recordForm').onsubmit=saveRecordForm;
-     document.getElementById('closeRecordModal').onclick=closeRecordForm;
-     document.getElementById('cancelRecordModal').onclick=closeRecordForm;
-     document.getElementById('recordModal').onclick=e=>{if(e.target.id==='recordModal')closeRecordForm()};
-     document.getElementById('userAvatar').onclick=openUserModal;
-     document.getElementById('userLoginForm').onsubmit=loginUser;
-     document.getElementById('logoutUser').onclick=logoutUser;
-     document.getElementById('closeUserModal').onclick=closeUserModal;
-     document.getElementById('cancelUserModal').onclick=closeUserModal;
-     document.getElementById('userModal').onclick=e=>{if(e.target.id==='userModal')closeUserModal()};
-     document.getElementById('settingsBtn').onclick=openSettingsModal;
-     document.getElementById('settingsForm').onsubmit=e=>{e.preventDefault();connectDatabase()};
-     document.getElementById('databaseProvider').onchange=toggleDatabaseFields;
-     document.getElementById('closeSettingsModal').onclick=closeSettingsModal;
-     document.getElementById('cancelSettingsModal').onclick=closeSettingsModal;
-     document.getElementById('settingsModal').onclick=e=>{if(e.target.id==='settingsModal')closeSettingsModal()};
-     updateUserAvatar();
-    document.getElementById('menuBtn').onclick=()=>document.getElementById('sidebar').classList.toggle('open');
-    render();
-     const savedDatabaseConfig=load('db_config');if(savedDatabaseConfig&&savedDatabaseConfig.provider&&savedDatabaseConfig.provider!=='local'){fillDatabaseSettings(savedDatabaseConfig);connectDatabase()}
+
+    function getAgentName(id) { const a = data.agents.find(x => x.id == id); return a ? a.name : '-'; }
+
+    let editingPropertyId=null;
+    let selectedImageItems=[];
+    function propertyField(id){return document.getElementById(id)}
+
+    function renderImagePreviews(){
+      const container = document.getElementById('imagePreviewContainer');
+      document.getElementById('imageCountLabel').textContent = `${selectedImageItems.length} / ၅ ပုံ ရွေးပြီး`;
+      container.innerHTML = selectedImageItems.map((item, idx) => `
+        <div class="img-thumb-container"><img src="${item.url}" /><div class="img-thumb-del" onclick="removeSelectedImage(${idx})">✕</div></div>
+      `).join('');
+    }
+    window.removeSelectedImage = function(index) { selectedImageItems.splice(index, 1); renderImagePreviews(); };
+
+    async function openPropertyForm(id=null){
+      editingPropertyId=id; selectedImageItems=[];
+      const p=id==null?{}:data.properties.find(item=>item.id==id)||{};
+      document.getElementById('propertyModalTitle').textContent=id==null?'အိမ်ခြံမြေထည့်ရန်':'အိမ်ခြံမြေပြင်ရန်';
+      const ownerSelect=document.getElementById('propertyOwnerSelect');
+      ownerSelect.innerHTML='<option value="">-- ဖောက်သည် စာရင်းမှ ရွေးပါ --</option>'+data.clients.map(c=>`<option value="${esc(c.name)}" data-phone="${esc(c.phone)}">${esc(c.name)} (${esc(c.type)} - ${esc(c.phone)})</option>`).join('');
+      const agentSelect=document.getElementById('propertySourceAgent');
+      agentSelect.innerHTML='<option value="">-- Agent ရွေးပါ --</option>'+data.agents.map(a=>`<option value="${a.id}">${esc(a.name)} (${esc(a.agency)})</option>`).join('');
+
+      ownerSelect.onchange=()=>{
+        const selOption=ownerSelect.options[ownerSelect.selectedIndex];
+        if(ownerSelect.value){ propertyField('propertyOwner').value=ownerSelect.value; propertyField('propertyPhone').value=selOption.getAttribute('data-phone')||''; }
+      };
+
+      propertyField('propertyTitle').value=p.title||'';
+      propertyField('propertyListing').value=p.listing||'ရောင်းရန်';
+      propertyField('propertyType').value=p.type||'အိမ်';
+      propertyField('propertyStatusForm').value=p.status||'ရရှိနိုင်';
+      propertyField('propertyPrice').value=p.price||'';
+      propertyField('propertyTownship').value=p.township||'';
+      propertyField('propertyCity').value=p.city||'ရန်ကုန်';
+      propertyField('propertyAddress').value=p.address||'';
+      propertyField('propertyMapUrl').value=p.mapUrl||'';
+      const sourceType = p.sourceType || 'direct';
+      propertyField('propertySourceType').value = sourceType;
+      document.getElementById('agentSelectContainer').style.display = sourceType === 'agent' ? 'block' : 'none';
+      propertyField('propertySourceAgent').value = p.agentId || '';
+
+      if (p.imageIds && p.imageIds.length) {
+        for (const imgId of p.imageIds) {
+          const imgUrl = await getImageFromDB(imgId);
+          if (imgUrl) selectedImageItems.push({ id: imgId, url: imgUrl, blob: null });
+        }
+      }
+      renderImagePreviews();
+      propertyField('propertyBeds').value=p.beds??0;
+      propertyField('propertyBaths').value=p.baths??0;
+      propertyField('propertySize').value=p.size||'';
+      propertyField('propertyOwner').value=p.owner||'';
+      propertyField('propertyPhone').value=p.phone||'';
+      propertyField('propertyDescription').value=p.description||'';
+      if(p.owner) ownerSelect.value=p.owner;
+      document.getElementById('propertyModal').classList.add('open');
+    }
+
+    document.getElementById('propertySourceType').onchange = (e) => {
+      document.getElementById('agentSelectContainer').style.display = e.target.value === 'agent' ? 'block' : 'none';
+    };
+    function closePropertyForm(){document.getElementById('propertyModal').classList.remove('open');editingPropertyId=null;selectedImageItems=[];}
+    
+    async function savePropertyForm(event){
+      event.preventDefault();
+      const finalImageIds = [];
+      for (const item of selectedImageItems) {
+        if (item.blob) {
+          const newId = 'img_' + Date.now() + '_' + Math.random().toString(36).substr(2, 5);
+          await saveImageToDB(newId, item.blob);
+          finalImageIds.push(newId);
+        } else if (item.id) finalImageIds.push(item.id);
+      }
+      const item={
+        id:editingPropertyId??Date.now(),
+        title:propertyField('propertyTitle').value.trim(),
+        listing:propertyField('propertyListing').value,
+        type:propertyField('propertyType').value,
+        status:propertyField('propertyStatusForm').value,
+        price:Number(propertyField('propertyPrice').value||0),
+        township:propertyField('propertyTownship').value.trim(),
+        city:propertyField('propertyCity').value.trim(),
+        address:propertyField('propertyAddress').value.trim(),
+        mapUrl:propertyField('propertyMapUrl').value.trim(),
+        sourceType:propertyField('propertySourceType').value,
+        agentId:propertyField('propertySourceAgent').value,
+        imageIds:finalImageIds,
+        beds:Number(propertyField('propertyBeds').value||0),
+        baths:Number(propertyField('propertyBaths').value||0),
+        size:Number(propertyField('propertySize').value||0),
+        owner:propertyField('propertyOwner').value.trim(),
+        phone:propertyField('propertyPhone').value.trim(),
+        description:propertyField('propertyDescription').value.trim()
+      };
+      if(editingPropertyId==null)data.properties.push(item);
+      else{const index=data.properties.findIndex(p=>p.id==editingPropertyId);if(index>=0)data.properties[index]=item}
+      save('properties',data.properties);
+      closePropertyForm(); render();
+    }
+
+    function rentals(){
+      const stages=['အသစ်','ကြည့်ရှုပြီး','စရံချပြီး','စာချုပ်ချုပ်ပြီး','ပျက်ပြယ်ပြီး'];
+      const items = data.rentals;
+      return `<div class="toolbar">
+        <input class="input" id="rentalSearch" placeholder="အိမ်ခြံမြေ / ငှားသူ ရှာရန်…" />
+        <button class="btn primary push" id="addRentalBtn">+ အိမ်ငှား ဝန်ဆောင်မှု အသစ်ထည့်ရန်</button>
+      </div>
+      <div class="notice">💡 အငှားဝန်ဆောင်မှုတွင် Pipeline (အသစ်၊ ကြည့်ရှုပြီး၊ စရံချပြီး၊ စာချုပ်ချုပ်ပြီး၊ ပျက်ပြယ်ပြီး) ထည့်သွင်းထားပါသည်။</div>
+      <div class="pipeline">${stages.map(s=>`<section class="card stage"><h3>${s} <span style="float:right;color:var(--muted)">${items.filter(r=>(r.stage||'အသစ်')===s).length}</span></h3>${items.filter(r=>(r.stage||'အသစ်')===s).map(r=>{
+        return `<div class="deal" onclick="openRentalModal('${r.id}')">
+          <b>${esc(r.propertyTitle)}</b>
+          <small>👤 ${esc(r.tenant||'-')}</small>
+          <small>💰 ${mmk(r.monthlyPrice)} /လ</small>
+          <small style="color:var(--brand-dark)">💼 My Fee: ${mmk(calculateRentalMyAgentFee(r))}</small>
+        </div>`;
+      }).join('')}</section>`).join('')}</div>`;
+    }
+
+    let activeRentalFileBlob = null;
+    let activeRentalFileName = "";
+    let editingRentalId = null;
+
+    function openRentalModal(rentalId = null){
+      editingRentalId = rentalId;
+      activeRentalFileBlob = null; activeRentalFileName = "";
+      document.getElementById('rentalFileInfo').textContent = "မရွေးရသေးပါ";
+      document.getElementById('rentalId').value = rentalId || '';
+
+      const propSelect = document.getElementById('rentalPropertySelect');
+      const rentalProps = data.properties.filter(p=>p.listing==='ငှားရန်' && (p.status==='ရရှိနိုင်' || (rentalId && data.rentals.find(r=>r.id==rentalId)?.propertyId == p.id)));
+      propSelect.innerHTML = '<option value="">-- အိမ်ခြံမြေ ရွေးပါ --</option>' + rentalProps.map(p=>`<option value="${p.id}">${esc(p.title)} (${esc(p.township)})</option>`).join('');
+
+      const tenantSelect = document.getElementById('rentalTenantSelect');
+      tenantSelect.innerHTML = '<option value="">-- ငှားသူ ရွေးပါ --</option>' + data.clients.map(c=>`<option value="${esc(c.name)}">${esc(c.name)} (${esc(c.type)})</option>`).join('');
+
+      document.getElementById('rentalAgentSplitContainer').innerHTML = '';
+
+      if (rentalId) {
+        const existing = data.rentals.find(r => r.id == rentalId);
+        if (existing) {
+          document.getElementById('rentalModalTitle').textContent = "အိမ်ငှား ဝန်ဆောင်မှု ပြင်ဆင်ရန်";
+          propSelect.value = existing.propertyId || '';
+          tenantSelect.value = existing.tenant || '';
+          document.getElementById('rentalOwner').value = existing.owner || '';
+          document.getElementById('rentalStage').value = existing.stage || 'အသစ်';
+          document.getElementById('rentalMonthlyPrice').value = existing.monthlyPrice || '';
+          document.getElementById('rentalDeposit').value = existing.deposit || 0;
+          document.getElementById('rentalPeriod').value = existing.period || '1y';
+          document.getElementById('rentalStartDate').value = existing.startDate || new Date().toISOString().slice(0, 10);
+          document.getElementById('rentalEndDate').value = existing.endDate || '';
+          document.getElementById('rentalTotalFeeOpt').value = existing.totalFeeOpt || '100';
+          if (existing.contractFileName) document.getElementById('rentalFileInfo').textContent = `ယခင်: ${existing.contractFileName}`;
+          if (Array.isArray(existing.agents) && existing.agents.length > 0) {
+            existing.agents.forEach(a => addRentalAgentSplitRow(a.agentId, a.pct));
+          } else {
+            addRentalAgentSplitRow();
+          }
+        }
+      } else {
+        document.getElementById('rentalModalTitle').textContent = "အိမ်ငှား ဝန်ဆောင်မှု အသစ်ထည့်ရန်";
+        document.getElementById('rentalMonthlyPrice').value = '';
+        document.getElementById('rentalDeposit').value = '0';
+        document.getElementById('rentalOwner').value = '';
+        document.getElementById('rentalStage').value = 'အသစ်';
+        document.getElementById('rentalStartDate').value = new Date().toISOString().slice(0, 10);
+        document.getElementById('rentalTotalFeeOpt').value = '100';
+        calculateRentalEndDate();
+        addRentalAgentSplitRow();
+      }
+      calculateRentalCommissions();
+      document.getElementById('rentalModal').classList.add('open');
+    }
+
+    function closeRentalModal(){ document.getElementById('rentalModal').classList.remove('open'); editingRentalId = null; }
+
+    document.getElementById('rentalPropertySelect').onchange = (e) => {
+      const prop = data.properties.find(p => p.id == e.target.value);
+      if(prop) {
+        document.getElementById('rentalOwner').value = prop.owner || '-';
+        document.getElementById('rentalMonthlyPrice').value = prop.price || 0;
+        calculateRentalCommissions();
+      }
+    };
+
+    function calculateRentalEndDate(){
+      const startVal = document.getElementById('rentalStartDate').value;
+      const period = document.getElementById('rentalPeriod').value;
+      if(!startVal) return;
+      const date = new Date(startVal);
+      if(period==='3m') date.setMonth(date.getMonth() + 3);
+      else if(period==='6m') date.setMonth(date.getMonth() + 6);
+      else if(period==='1y') date.setFullYear(date.getFullYear() + 1);
+      else if(period==='monthly') date.setMonth(date.getMonth() + 1);
+      date.setDate(date.getDate() - 1);
+      document.getElementById('rentalEndDate').value = date.toISOString().slice(0, 10);
+    }
+
+    document.getElementById('rentalPeriod').onchange = calculateRentalEndDate;
+    document.getElementById('rentalStartDate').onchange = calculateRentalEndDate;
+
+    function addRentalAgentSplitRow(selectedAgentId = '', pct = 100) {
+      const container = document.getElementById('rentalAgentSplitContainer');
+      const rowId = 'rental_agent_row_' + Date.now() + '_' + Math.random().toString(36).substr(2, 4);
+      if (!selectedAgentId && data.agents.length > 0) selectedAgentId = data.agents[0].id;
+      const div = document.createElement('div');
+      div.className = 'agent-split-row';
+      div.id = rowId;
+      div.innerHTML = `
+        <select class="select rental-agent-select" onchange="calculateRentalCommissions()">
+          <option value="">-- Agent ရွေးပါ --</option>
+          ${data.agents.map(a => `<option value="${a.id}" ${a.id == selectedAgentId ? 'selected' : ''}>${esc(a.name)} (${esc(a.agency)})</option>`).join('')}
+        </select>
+        <input class="input rental-agent-pct" type="number" min="0" max="100" value="${pct}" placeholder="%" oninput="calculateRentalCommissions()" />
+        <span class="rental-agent-comm-val" style="color:var(--brand-dark)">0 ကျပ်</span>
+        <button type="button" class="btn danger" onclick="removeRentalAgentSplitRow('${rowId}')" style="padding:4px 8px">✕</button>
+      `;
+      container.appendChild(div);
+      calculateRentalCommissions();
+    }
+    window.removeRentalAgentSplitRow = function(rowId) { document.getElementById(rowId)?.remove(); calculateRentalCommissions(); };
+    document.getElementById('addRentalAgentRowBtn').onclick = () => addRentalAgentSplitRow();
+
+    function calculateRentalCommissions() {
+      const monthlyPrice = Number(document.getElementById('rentalMonthlyPrice').value || 0);
+      const feeOpt = Number(document.getElementById('rentalTotalFeeOpt').value || 100);
+      const totalComm = (monthlyPrice * feeOpt) / 100;
+      document.getElementById('rentalTotalComm').value = totalComm ? mmk(totalComm) : '0 ကျပ်';
+
+      // Scope the lookup to the rental modal. Both rental and sales pipeline
+      // forms use the agent-split-row class, and the other modal remains in
+      // the DOM even when it is hidden.
+      document.getElementById('rentalAgentSplitContainer').querySelectorAll('.agent-split-row').forEach(row => {
+        const pct = Number(row.querySelector('.rental-agent-pct').value || 100);
+        const agentShare = (totalComm * pct) / 100;
+        row.querySelector('.rental-agent-comm-val').textContent = mmk(agentShare);
+      });
+    }
+
+    document.getElementById('rentalMonthlyPrice').oninput = calculateRentalCommissions;
+    document.getElementById('rentalTotalFeeOpt').onchange = calculateRentalCommissions;
+
+    document.getElementById('selectRentalFileBtn').onclick = () => document.getElementById('rentalFileInput').click();
+    document.getElementById('rentalFileInput').onchange = (e) => {
+      const file = e.target.files[0];
+      if(file){ activeRentalFileBlob = file; activeRentalFileName = file.name; document.getElementById('rentalFileInfo').textContent = file.name + ` (${(file.size/1024).toFixed(1)} KB)`; }
+    };
+
+    async function saveRentalForm(e){
+      e.preventDefault();
+      const propId = document.getElementById('rentalPropertySelect').value;
+      const prop = data.properties.find(p=>p.id==propId);
+      const stage = document.getElementById('rentalStage').value;
+
+      let docId = editingRentalId ? (data.rentals.find(r=>r.id==editingRentalId)?.contractDocId || '') : '';
+      let fileNameStr = activeRentalFileName || (editingRentalId ? (data.rentals.find(r=>r.id==editingRentalId)?.contractFileName || '') : '');
+
+      if(activeRentalFileBlob){
+        docId = 'doc_' + Date.now();
+        await saveToDB('contracts', docId, activeRentalFileBlob, activeRentalFileName);
+      }
+
+      const agentSplits = [];
+      document.getElementById('rentalAgentSplitContainer').querySelectorAll('.agent-split-row').forEach(row => {
+        const agentSelectElem = row.querySelector('.rental-agent-select');
+        const agentPctElem = row.querySelector('.rental-agent-pct');
+        if (agentSelectElem && agentPctElem) {
+          const agentId = agentSelectElem.value;
+          const pct = Number(agentPctElem.value || 100);
+          if (agentId) {
+            const agentObj = data.agents.find(a => a.id == agentId);
+            agentSplits.push({ agentId, name: agentObj ? agentObj.name : '', pct });
+          }
+        }
+      });
+
+      const monthlyPrice = Number(document.getElementById('rentalMonthlyPrice').value || 0);
+      const feeOpt = Number(document.getElementById('rentalTotalFeeOpt').value || 100);
+      const totalComm = (monthlyPrice * feeOpt) / 100;
+      const endDateVal = document.getElementById('rentalEndDate').value;
+
+      if (propId && prop) {
+        if (stage === 'စရံချပြီး' || stage === 'စာချုပ်ချုပ်ပြီး') prop.status = 'ငှားရမ်းပြီး';
+        else prop.status = 'ရရှိနိုင်';
+        save('properties', data.properties);
+      }
+
+      const item = {
+        id: editingRentalId ? Number(editingRentalId) : Date.now(),
+        propertyId: propId,
+        propertyTitle: prop ? prop.title : '',
+        tenant: document.getElementById('rentalTenantSelect').value,
+        owner: document.getElementById('rentalOwner').value,
+        stage: stage,
+        monthlyPrice: monthlyPrice,
+        deposit: Number(document.getElementById('rentalDeposit').value||0),
+        period: document.getElementById('rentalPeriod').value,
+        startDate: document.getElementById('rentalStartDate').value,
+        endDate: endDateVal,
+        totalFeeOpt: feeOpt,
+        totalCommission: totalComm,
+        agents: agentSplits,
+        contractDocId: docId,
+        contractFileName: fileNameStr
+      };
+
+      if (editingRentalId) {
+        const idx = data.rentals.findIndex(r => r.id == editingRentalId);
+        if (idx >= 0) data.rentals[idx] = item;
+      } else {
+        data.rentals.push(item);
+      }
+
+      save('rentals', data.rentals);
+      closeRentalModal(); render();
+    }
+
+    // Clients Page
+    function clients(){
+      return `<div class="toolbar"><button class="btn primary push" id="addClientBtn">+ ဖောက်သည် အသစ်ထည့်ရန်</button></div>
+      <div class="card table-wrap">
+        <table class="table">
+          <thead><tr><th>အမည်</th><th>အမျိုးအစား</th><th>ဖုန်းနံပါတ်</th><th>ဘတ်ဂျက်</th><th>အလိုရှိရာ</th><th>လုပ်ဆောင်ချက်</th></tr></thead>
+          <tbody>
+            ${data.clients.length ? data.clients.map(c=>`<tr>
+              <td><b>${esc(c.name)}</b></td>
+              <td>${badge(c.type)}</td>
+              <td>${esc(c.phone)}</td>
+              <td>${esc(c.budget)}</td>
+              <td>${esc(c.preference)}</td>
+              <td>
+                <button class="btn secondary" style="padding:4px 8px" onclick="openClientModal('${c.id}')">ပြင်ရန်</button>
+                <button class="btn danger" style="padding:4px 8px" onclick="deleteClient('${c.id}')">ဖျက်ရန်</button>
+              </td>
+            </tr>`).join('') : '<tr><td colspan="6" class="empty">ဖောက်သည် စာရင်း မရှိသေးပါ။</td></tr>'}
+          </tbody>
+        </table>
+      </div>`;
+    }
+
+    window.openClientModal = function(id=null) {
+      const c = id ? data.clients.find(x => x.id == id) : {};
+      document.getElementById('recordModalTitle').textContent = id ? 'ဖောက်သည် ပြင်ဆင်ရန်' : 'ဖောက်သည် အသစ်ထည့်ရန်';
+      document.getElementById('recordId').value = id || '';
+      document.getElementById('recordFields').innerHTML = `
+        <div class="field full"><label>အမည် *</label><input class="input" id="cliName" value="${esc(c.name||'')}" required /></div>
+        <div class="field"><label>အမျိုးအစား *</label><select class="select" id="cliType"><option ${c.type==='ဝယ်သူ'?'selected':''}>ဝယ်သူ</option><option ${c.type==='ငှားသူ'?'selected':''}>ငှားသူ</option><option ${c.type==='ရောင်းသူ'?'selected':''}>ရောင်းသူ</option><option ${c.type==='အိမ်ရှင်'?'selected':''}>အိမ်ရှင်</option></select></div>
+        <div class="field"><label>ဖုန်းနံပါတ် *</label><input class="input" id="cliPhone" value="${esc(c.phone||'')}" required /></div>
+        <div class="field"><label>ဘတ်ဂျက်</label><input class="input" id="cliBudget" value="${esc(c.budget||'')}" /></div>
+        <div class="field"><label>အလိုရှိရာ (Preference)</label><input class="input" id="cliPref" value="${esc(c.preference||'')}" /></div>
+      `;
+      document.getElementById('recordModal').classList.add('open');
+      document.getElementById('recordForm').onsubmit = (e) => {
+        e.preventDefault();
+        const item = {
+          id: id ? Number(id) : Date.now(),
+          name: document.getElementById('cliName').value.trim(),
+          type: document.getElementById('cliType').value,
+          phone: document.getElementById('cliPhone').value.trim(),
+          budget: document.getElementById('cliBudget').value.trim(),
+          preference: document.getElementById('cliPref').value.trim()
+        };
+        if(id) { const idx = data.clients.findIndex(x => x.id == id); if(idx>=0) data.clients[idx] = item; }
+        else data.clients.push(item);
+        save('clients', data.clients);
+        document.getElementById('recordModal').classList.remove('open');
+        render();
+      };
+    };
+    window.deleteClient = function(id) {
+      if(confirm('ဤဖောက်သည်ကို ဖျက်မည်မှာ သေချာပါသလား။')) {
+        data.clients = data.clients.filter(x => x.id != id);
+        save('clients', data.clients); render();
+      }
+    };
+
+    // Agents Page
+    function agents(){
+      return `<div class="toolbar"><button class="btn primary push" id="addAgentBtn">+ အေးဂျင့် အသစ်ထည့်ရန်</button></div>
+      <div class="card table-wrap">
+        <table class="table">
+          <thead><tr><th>အမည်</th><th>အေဂျင်စီ</th><th>ဖုန်းနံပါတ်</th><th>အဆင့်အတန်း</th><th>အောင်မြင်မှု</th><th>လုပ်ဆောင်ချက်</th></tr></thead>
+          <tbody>
+            ${data.agents.length ? data.agents.map(a=>`<tr>
+              <td><b>${esc(a.name)}</b></td>
+              <td>${esc(a.agency)}</td>
+              <td>${esc(a.phone)}</td>
+              <td>${badge(a.status, 'green')} (★ ${a.rating})</td>
+              <td>${a.won} deals</td>
+              <td>
+                <button class="btn secondary" style="padding:4px 8px" onclick="openAgentModal('${a.id}')">ပြင်ရန်</button>
+                <button class="btn danger" style="padding:4px 8px" onclick="deleteAgent('${a.id}')">ဖျက်ရန်</button>
+              </td>
+            </tr>`).join('') : '<tr><td colspan="6" class="empty">အေးဂျင့် စာရင်း မရှိသေးပါ။</td></tr>'}
+          </tbody>
+        </table>
+      </div>`;
+    }
+
+    window.openAgentModal = function(id=null) {
+      const a = id ? data.agents.find(x => x.id == id) : {};
+      document.getElementById('recordModalTitle').textContent = id ? 'အေးဂျင့် ပြင်ဆင်ရန်' : 'အေးဂျင့် အသစ်ထည့်ရန်';
+      document.getElementById('recordId').value = id || '';
+      document.getElementById('recordFields').innerHTML = `
+        <div class="field full"><label>အမည် *</label><input class="input" id="agName" value="${esc(a.name||'')}" required /></div>
+        <div class="field"><label>အေဂျင်စီ အမည်</label><input class="input" id="agAgency" value="${esc(a.agency||'')}" /></div>
+        <div class="field"><label>ဖုန်းနံပါတ် *</label><input class="input" id="agPhone" value="${esc(a.phone||'')}" required /></div>
+        <div class="field"><label>အခြေအနေ</label><select class="select" id="agStatus"><option ${a.status==='အသက်ဝင်'?'selected':''}>အသက်ဝင်</option><option ${a.status==='ရပ်ဆိုင်း'?'selected':''}>ရပ်ဆိုင်း</option></select></div>
+      `;
+      document.getElementById('recordModal').classList.add('open');
+      document.getElementById('recordForm').onsubmit = (e) => {
+        e.preventDefault();
+        const item = {
+          id: id ? Number(id) : Date.now(),
+          name: document.getElementById('agName').value.trim(),
+          agency: document.getElementById('agAgency').value.trim(),
+          phone: document.getElementById('agPhone').value.trim(),
+          status: document.getElementById('agStatus').value,
+          rating: a.rating || 5.0,
+          won: a.won || 0
+        };
+        if(id) { const idx = data.agents.findIndex(x => x.id == id); if(idx>=0) data.agents[idx] = item; }
+        else data.agents.push(item);
+        save('agents', data.agents);
+        document.getElementById('recordModal').classList.remove('open');
+        render();
+      };
+    };
+    window.deleteAgent = function(id) {
+      if(confirm('ဤအေးဂျင့်ကို ဖျက်မည်မှာ သေချာပါသလား။')) {
+        data.agents = data.agents.filter(x => x.id != id);
+        save('agents', data.agents); render();
+      }
+    };
+
+    // Invoices Page
+    function invoices(){
+      return `<div class="toolbar"><button class="btn primary push" id="addInvoiceBtn">+ ငွေတောင်းခံလွှာ အသစ်ထည့်ရန်</button></div>
+      <div class="card table-wrap">
+        <table class="table">
+          <thead><tr><th>အိမ်ခြံမြေ</th><th>ဖောက်သည်</th><th>အမျိုးအစား</th><th>ပမာဏ</th><th>ပေးချေရမည့်ရက်</th><th>အခြေအနေ</th><th>လုပ်ဆောင်ချက်</th></tr></thead>
+          <tbody>
+            ${data.invoices.length ? data.invoices.map(i=>`<tr>
+              <td><b>${esc(i.property)}</b></td>
+              <td>${esc(i.tenant)}</td>
+              <td>${esc(i.type)}</td>
+              <td><b>${mmk(i.amount)}</b></td>
+              <td>${i.due}</td>
+              <td>${badge(i.status, i.status==='ပေးချေပြီး'?'green':'yellow')}</td>
+              <td>
+                <button class="btn secondary" style="padding:4px 8px" data-invoice-edit="${esc(i.id)}">ပြင်ရန်</button>
+                <button class="btn danger" style="padding:4px 8px" data-invoice-delete="${esc(i.id)}">ဖျက်ရန်</button>
+              </td>
+            </tr>`).join('') : '<tr><td colspan="7" class="empty">ငွေတောင်းခံလွှာ မရှိသေးပါ။</td></tr>'}
+          </tbody>
+        </table>
+      </div>`;
+    }
+
+    function invoiceRentalsForTenant(tenant) {
+      return data.rentals.filter(r => String(r.tenant || '') === String(tenant || ''));
+    }
+
+    function updateInvoiceRentalInfo(setAmount = false) {
+      const rentalSelect = document.getElementById('invRentalSelect');
+      const info = document.getElementById('invRentalInfo');
+      if (!rentalSelect || !info) return;
+
+      const rental = data.rentals.find(r => String(r.id) === String(rentalSelect.value));
+      if (!rental) {
+        const propertyTitle = rentalSelect.selectedOptions[0]?.dataset.property || '';
+        const property = data.properties.find(p => p.title === propertyTitle);
+        info.innerHTML = propertyTitle
+          ? `<b>${esc(propertyTitle)}</b><span>အမျိုးအစား: ${esc(property?.type || '-')} · ${esc(property?.listing || '-')}</span><span>စျေးနှုန်း: ${mmk(property?.price || 0)}</span>`
+          : '<span style="color:var(--muted)">ဖောက်သည်ကို ရွေးပြီး ဆက်စပ်အိမ်ခြံမြေကို ရွေးပါ။</span>';
+        return;
+      }
+
+      if (setAmount) document.getElementById('invAmount').value = rental.monthlyPrice ?? '';
+      info.innerHTML = `
+        <b>${esc(rental.propertyTitle || '-')}</b>
+        <span>လစဉ်ငှားရမ်းခ: ${mmk(rental.monthlyPrice)}</span>
+        <span>ကာလ: ${esc(rental.startDate || '-')} မှ ${esc(rental.endDate || '-')}</span>
+        <span>Status: ${esc(rental.stage || '-')}</span>
+      `;
+    }
+
+    function populateInvoiceRentalOptions(tenant, selectedRentalId = '', legacyProperty = '') {
+      const select = document.getElementById('invRentalSelect');
+      if (!select) return;
+      const rentals = invoiceRentalsForTenant(tenant);
+      let html = '<option value="">-- ဆက်စပ်အိမ်ခြံမြေ ရွေးပါ --</option>';
+      html += rentals.map(r => `<option value="${esc(r.id)}" ${String(r.id) === String(selectedRentalId) ? 'selected' : ''}>${esc(r.propertyTitle || '-')} · ${mmk(r.monthlyPrice)}</option>`).join('');
+
+      // If the customer has no rental record yet, still allow an invoice to
+      // be created against an existing property. Rental-linked properties
+      // continue to provide the automatic monthly-price default.
+      if (!rentals.length) {
+        const fallbackProperties = data.properties.filter(p => !tenant || p.owner === tenant || p.title === legacyProperty);
+        const properties = fallbackProperties.length ? fallbackProperties : data.properties;
+        html += properties.map(p => `<option value="property:${esc(p.id)}" data-property="${esc(p.title)}" ${p.title === legacyProperty ? 'selected' : ''}>${esc(p.title)} · ${mmk(p.price)}</option>`).join('');
+      }
+
+      // Preserve an older/manual invoice property that has no rental record.
+      if (legacyProperty && !rentals.some(r => r.propertyTitle === legacyProperty)) {
+        html += `<option value="legacy" data-property="${esc(legacyProperty)}" selected>${esc(legacyProperty)} (ယခင်မှတ်တမ်း)</option>`;
+      }
+      select.innerHTML = html;
+      if (selectedRentalId && rentals.some(r => String(r.id) === String(selectedRentalId))) {
+        select.value = String(selectedRentalId);
+      }
+      updateInvoiceRentalInfo(false);
+    }
+
+    window.openInvoiceModal = function(id=null) {
+      const i = id ? data.invoices.find(x => x.id == id) : {};
+      const linkedRental = data.rentals.find(r => String(r.id) === String(i.rentalId)) ||
+        data.rentals.find(r => r.tenant === i.tenant && r.propertyTitle === i.property);
+      const selectedTenant = i.tenant || '';
+      document.getElementById('recordModalTitle').textContent = id ? 'ငွေတောင်းခံလွှာ ပြင်ဆင်ရန်' : 'ငွေတောင်းခံလွှာ အသစ်ထည့်ရန်';
+      document.getElementById('recordId').value = id || '';
+      const tenantOptions = data.clients.map(c => `<option value="${esc(c.name)}" ${c.name === selectedTenant ? 'selected' : ''}>${esc(c.name)} (${esc(c.type)})</option>`).join('');
+      const legacyTenant = selectedTenant && !data.clients.some(c => c.name === selectedTenant)
+        ? `<option value="${esc(selectedTenant)}" selected>${esc(selectedTenant)} (ယခင်မှတ်တမ်း)</option>` : '';
+
+      document.getElementById('recordFields').innerHTML = `
+        <div class="field"><label for="invTenantSelect">ဖောက်သည် အမည် *</label><select class="select" id="invTenantSelect" required><option value="">-- ဖောက်သည် ရွေးပါ --</option>${tenantOptions}${legacyTenant}</select></div>
+        <div class="field"><label for="invRentalSelect">ဆက်စပ်အိမ်ခြံမြေ / အငှားဝန်ဆောင်မှု *</label><select class="select" id="invRentalSelect" required></select></div>
+        <div class="field full"><div id="invRentalInfo" class="detail-section" style="margin:0;font-size:11px"><span style="color:var(--muted)">ဖောက်သည်ကို ရွေးပါ။</span></div></div>
+        <div class="field"><label for="invType">အမျိုးအစား</label><input class="input" id="invType" value="${esc(i.type||'အိမ်ငှားခ')}" /></div>
+        <div class="field"><label for="invAmount">ပမာဏ (ကျပ်) *</label><input class="input" id="invAmount" type="number" min="0" value="${i.amount ?? linkedRental?.monthlyPrice ?? ''}" required /></div>
+        <div class="field"><label for="invDue">ပေးချေရမည့်ရက် *</label><input class="input" id="invDue" type="date" value="${i.due||new Date().toISOString().slice(0,10)}" required /></div>
+        <div class="field"><label for="invStatus">အခြေအနေ</label><select class="select" id="invStatus"><option ${i.status==='ဆိုင်းငံ့'?'selected':''}>ဆိုင်းငံ့</option><option ${i.status==='ပေးချေပြီး'?'selected':''}>ပေးချေပြီး</option></select></div>
+      `;
+
+      const tenantSelect = document.getElementById('invTenantSelect');
+      populateInvoiceRentalOptions(selectedTenant, linkedRental?.id || '', i.property || '');
+      tenantSelect.onchange = () => {
+        populateInvoiceRentalOptions(tenantSelect.value);
+        const rentalSelect = document.getElementById('invRentalSelect');
+        if (rentalSelect.options.length > 1) rentalSelect.selectedIndex = 1;
+        updateInvoiceRentalInfo(true);
+      };
+      document.getElementById('invRentalSelect').onchange = () => updateInvoiceRentalInfo(true);
+      updateInvoiceRentalInfo(false);
+
+      document.getElementById('recordModal').classList.add('open');
+      document.getElementById('recordForm').onsubmit = (e) => {
+        e.preventDefault();
+        const rentalSelect = document.getElementById('invRentalSelect');
+        const rental = data.rentals.find(r => String(r.id) === String(rentalSelect.value));
+        const selectedProperty = rental?.propertyTitle || rentalSelect.selectedOptions[0]?.dataset.property || '';
+        const item = {
+          id: id ? Number(id) : Date.now(),
+          rentalId: rental ? rental.id : '',
+          property: selectedProperty,
+          tenant: document.getElementById('invTenantSelect').value,
+          type: document.getElementById('invType').value.trim(),
+          amount: Number(document.getElementById('invAmount').value || 0),
+          due: document.getElementById('invDue').value,
+          status: document.getElementById('invStatus').value
+        };
+        if(id) { const idx = data.invoices.findIndex(x => x.id == id); if(idx>=0) data.invoices[idx] = item; }
+        else data.invoices.push(item);
+        save('invoices', data.invoices);
+        document.getElementById('recordModal').classList.remove('open');
+        render();
+      };
+    };
+    window.deleteInvoice = function(id) {
+      if(confirm('ဤငွေတောင်းခံလွှာကို ဖျက်မည်မှာ သေချာပါသလား။')) {
+        data.invoices = data.invoices.filter(x => x.id != id);
+        save('invoices', data.invoices); render();
+      }
+    };
+
+    // Maintenance Page
+    function maintenance(){
+      return `<div class="toolbar"><button class="btn primary push" id="addMaintBtn">+ ပြုပြင်ထိန်းသိမ်းမှု အသစ်ထည့်ရန်</button></div>
+      <div class="card table-wrap">
+        <table class="table">
+          <thead><tr><th>အိမ်ခြံမြေ</th><th>ခေါင်းစဉ်</th><th>ဖောက်သည်</th><th>အရေးပါမှု</th><th>အခြေအနေ</th><th>လုပ်ဆောင်ချက်</th></tr></thead>
+          <tbody>
+            ${data.maintenance.length ? data.maintenance.map(m=>`<tr>
+              <td><b>${esc(m.property)}</b></td>
+              <td>${esc(m.title)}</td>
+              <td>${esc(m.tenant)}</td>
+              <td>${badge(m.priority, m.priority==='မြင့်'?'red':'yellow')}</td>
+              <td>${badge(m.status, m.status==='ပြီးစီး'?'green':'blue')}</td>
+              <td>
+                <button class="btn secondary" style="padding:4px 8px" data-maint-edit="${esc(m.id)}">ပြင်ရန်</button>
+                <button class="btn danger" style="padding:4px 8px" data-maint-delete="${esc(m.id)}">ဖျက်ရန်</button>
+              </td>
+            </tr>`).join('') : '<tr><td colspan="6" class="empty">ပြုပြင်ထိန်းသိမ်းမှု စာရင်း မရှိသေးပါ။</td></tr>'}
+          </tbody>
+        </table>
+      </div>`;
+    }
+
+    function maintenancePropertiesForTenant(tenant) {
+      const rentalTitles = data.rentals.filter(r => r.tenant === tenant).map(r => r.propertyTitle).filter(Boolean);
+      const propertyTitles = data.properties.filter(p => rentalTitles.includes(p.title)).map(p => p.title);
+      return [...new Set([...rentalTitles, ...propertyTitles])];
+    }
+
+    function populateMaintenancePropertyOptions(tenant, selectedProperty = '') {
+      const select = document.getElementById('mPropSelect');
+      if (!select) return;
+      const related = maintenancePropertiesForTenant(tenant);
+      const titles = related.length ? related : data.properties.map(p => p.title);
+      let html = '<option value="">-- အိမ်ခြံမြေ ရွေးပါ --</option>';
+      html += titles.map(title => `<option value="${esc(title)}" ${title === selectedProperty ? 'selected' : ''}>${esc(title)}</option>`).join('');
+      if (selectedProperty && !titles.includes(selectedProperty)) {
+        html += `<option value="${esc(selectedProperty)}" selected>${esc(selectedProperty)} (ယခင်မှတ်တမ်း)</option>`;
+      }
+      select.innerHTML = html;
+    }
+
+    window.openMaintModal = function(id=null) {
+      const m = id ? data.maintenance.find(x => x.id == id) : {};
+      const selectedTenant = m.tenant || '';
+      document.getElementById('recordModalTitle').textContent = id ? 'ပြုပြင်ထိန်းသိမ်းမှု ပြင်ဆင်ရန်' : 'ပြုပြင်ထိန်းသိမ်းမှု အသစ်ထည့်ရန်';
+      document.getElementById('recordId').value = id || '';
+      const tenantOptions = data.clients.map(c => `<option value="${esc(c.name)}" ${c.name === selectedTenant ? 'selected' : ''}>${esc(c.name)} (${esc(c.type)})</option>`).join('');
+      const legacyTenant = selectedTenant && !data.clients.some(c => c.name === selectedTenant)
+        ? `<option value="${esc(selectedTenant)}" selected>${esc(selectedTenant)} (ယခင်မှတ်တမ်း)</option>` : '';
+      document.getElementById('recordFields').innerHTML = `
+        <div class="field"><label for="mTenantSelect">ဖောက်သည် အမည် *</label><select class="select" id="mTenantSelect" required><option value="">-- ဖောက်သည် ရွေးပါ --</option>${tenantOptions}${legacyTenant}</select></div>
+        <div class="field"><label for="mPropSelect">အိမ်ခြံမြေ *</label><select class="select" id="mPropSelect" required></select></div>
+        <div class="field full"><label for="mTitle">ခေါင်းစဉ် / ပြဿနာ *</label><input class="input" id="mTitle" value="${esc(m.title||'')}" required /></div>
+        <div class="field"><label for="mPriority">အရေးပါမှု (Priority)</label><select class="select" id="mPriority"><option ${m.priority==='သာမန်'?'selected':''}>သာမန်</option><option ${m.priority==='မြင့်'?'selected':''}>မြင့်</option></select></div>
+        <div class="field"><label for="mStatus">အခြေအနေ</label><select class="select" id="mStatus"><option ${m.status==='ဖွင့်ထား'?'selected':''}>ဖွင့်ထား</option><option ${m.status==='ဆောင်ရွက်ဆဲ'?'selected':''}>ဆောင်ရွက်ဆဲ</option><option ${m.status==='ပြီးစီး'?'selected':''}>ပြီးစီး</option></select></div>
+        <div class="field full"><label for="mDesc">အသေးစိတ် ဖော်ပြချက်</label><textarea class="input" id="mDesc">${esc(m.description||'')}</textarea></div>
+      `;
+      const tenantSelect = document.getElementById('mTenantSelect');
+      populateMaintenancePropertyOptions(selectedTenant, m.property || '');
+      tenantSelect.onchange = () => {
+        populateMaintenancePropertyOptions(tenantSelect.value);
+        const propertySelect = document.getElementById('mPropSelect');
+        if (propertySelect.options.length > 1) propertySelect.selectedIndex = 1;
+      };
+      document.getElementById('recordModal').classList.add('open');
+      document.getElementById('recordForm').onsubmit = (e) => {
+        e.preventDefault();
+        const item = {
+          id: id ? Number(id) : Date.now(),
+          property: document.getElementById('mPropSelect').value,
+          title: document.getElementById('mTitle').value.trim(),
+          tenant: document.getElementById('mTenantSelect').value,
+          priority: document.getElementById('mPriority').value,
+          status: document.getElementById('mStatus').value,
+          description: document.getElementById('mDesc').value.trim()
+        };
+        if(id) { const idx = data.maintenance.findIndex(x => x.id == id); if(idx>=0) data.maintenance[idx] = item; }
+        else data.maintenance.push(item);
+        save('maintenance', data.maintenance);
+        document.getElementById('recordModal').classList.remove('open');
+        render();
+      };
+    };
+    window.deleteMaint = function(id) {
+      if(confirm('ဤအချက်အလက်ကို ဖျက်မည်မှာ သေချာပါသလား။')) {
+        data.maintenance = data.maintenance.filter(x => x.id != id);
+        save('maintenance', data.maintenance); render();
+      }
+    };
+
+    function leases(){
+      return `<div class="toolbar"><span style="font-size:12px;color:var(--muted)">💡 အိမ်ငှား စာချုပ်များကို "အိမ်ငှား ဝန်ဆောင်မှု" မှ တိုက်ရိုက် ရယူထားပါသည်။</span></div>
+      <div class="card table-wrap">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>အိမ်ခြံမြေ</th>
+              <th>ငှားသူ</th>
+              <th>အိမ်ရှင်</th>
+              <th>လစဉ်ငှားခ</th>
+              <th>စတင်ရက်</th>
+              <th>ကုန်ဆုံးရက်</th>
+              <th>စာချုပ် (Attachment)</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${data.rentals.length ? data.rentals.map(l=>`<tr>
+              <td><b>${esc(l.propertyTitle)}</b></td>
+              <td>${esc(l.tenant)}</td>
+              <td>${esc(l.owner||'-')}</td>
+              <td>${mmk(l.monthlyPrice)}/လ</td>
+              <td>${l.startDate}</td>
+              <td>${l.endDate}</td>
+              <td>${l.contractDocId ? `<button class="btn secondary" style="padding:4px 9px;font-size:11px" onclick="viewContractModal('${l.contractDocId}', '${esc(l.contractFileName)}')">📄 ကြည့်ရန် / Download</button>` : '<span style="color:var(--muted)">မရှိပါ</span>'}</td>
+            </tr>`).join('') : '<tr><td colspan="7" class="empty">ငှားရမ်းစာချုပ် မတွေ့ပါ။</td></tr>'}
+          </tbody>
+        </table>
+      </div>`;
+    }
+
+    function salesContracts(){
+      const closedSales = data.deals.filter(d => d.stage === 'စာချုပ်ချုပ်ပြီး' && d.listingType === 'ရောင်းရန်');
+      return `<div class="toolbar"><span style="font-size:12px;color:var(--muted)">🛒 အရောင်းအဝယ် လုပ်ငန်းစဉ်မှ စာချုပ်ချုပ်ပြီး အချက်အလက်များ</span></div>
+      <div class="card table-wrap">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>ခေါင်းစဉ်</th>
+              <th>အိမ်ခြံမြေ</th>
+              <th>ဝယ်သူ</th>
+              <th>ပိုင်ရှင်</th>
+              <th>အတည်ပြု ရောင်းစျေး</th>
+              <th>Total Agent Fee</th>
+              <th>My Agent Fee</th>
+              <th>ရက်စွဲ</th>
+              <th>စာချုပ် (Attachment)</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${closedSales.length ? closedSales.map(d=>`<tr>
+              <td><b>${esc(d.title)}</b></td>
+              <td>${esc(d.propertyTitle)}</td>
+              <td>${esc(d.client)}</td>
+              <td>${esc(d.owner)}</td>
+              <td><b>${mmk(d.closedPrice||d.value)}</b></td>
+              <td>${mmk(d.totalCommission)}</td>
+              <td style="color:var(--brand-dark);font-weight:bold">${mmk(calculateMyAgentFee(d))}</td>
+              <td>${esc(d.date)}</td>
+              <td>${d.contractDocId ? `<button class="btn secondary" style="padding:4px 9px;font-size:11px" onclick="viewContractModal('${d.contractDocId}', '${esc(d.contractFileName)}')">📄 ကြည့်ရန် / Download</button>` : '<span style="color:var(--muted)">မရှိပါ</span>'}</td>
+            </tr>`).join('') : '<tr><td colspan="9" class="empty">အရောင်းအဝယ် စာချုပ်ချုပ်ပြီး စာရင်း မရှိသေးပါ။</td></tr>'}
+          </tbody>
+        </table>
+      </div>`;
+    }
+
+    async function viewContractModal(docId, fileName) {
+      const docRecord = await getFromDB('contracts', docId);
+      const body = document.getElementById('contractViewBody');
+      document.getElementById('contractViewTitle').textContent = `စာချုပ် စာရွက်စာတမ်း: ${fileName || 'Document'}`;
+      if (docRecord && docRecord.blob) {
+        const fileBlob = docRecord.blob; const fileUrl = URL.createObjectURL(fileBlob); const mimeType = fileBlob.type || '';
+        let previewHTML = '';
+        if (mimeType.startsWith('image/')) previewHTML = `<div class="doc-preview-box"><img src="${fileUrl}" alt="Contract Preview" /></div>`;
+        else if (mimeType === 'application/pdf') previewHTML = `<div class="doc-preview-box"><iframe src="${fileUrl}"></iframe></div>`;
+        else previewHTML = `<div style="padding:20px;text-align:center;color:var(--muted)">ဤဖိုင်အမျိုးအစားအတွက် direct preview မရှိပါ။ Download ရယူပါ။</div>`;
+
+        body.innerHTML = `
+          <div style="display:flex;justify-content:space-between;align-items:center;background:#fff;padding:10px 14px;border-radius:8px;border:1px solid var(--line)">
+            <div><b style="font-size:13px;color:var(--brand-dark)">📄 ${esc(fileName)}</b><small style="display:block;color:var(--muted)">Size: ${(fileBlob.size/1024).toFixed(1)} KB</small></div>
+            <button class="btn primary" onclick="downloadContractDoc('${docId}', '${esc(fileName)}')">💾 Direct Download</button>
+          </div>
+          ${previewHTML}`;
+      } else {
+        body.innerHTML = `<div class="empty">စာချုပ် Document ဖိုင်ကို ရှာမတွေ့ပါ။</div>`;
+      }
+      document.getElementById('contractViewModal').classList.add('open');
+    }
+
+    function closeContractViewModal() { document.getElementById('contractViewModal').classList.remove('open'); }
+    document.getElementById('closeContractViewModal').onclick = closeContractViewModal;
+    document.getElementById('cancelContractViewModal').onclick = closeContractViewModal;
+
+    window.downloadContractDoc = async function(docId, fileName) {
+      const res = await getFromDB('contracts', docId);
+      if (res && res.blob) {
+        const url = URL.createObjectURL(res.blob);
+        const a = document.createElement('a'); a.href = url; a.download = fileName || res.name || 'contract';
+        document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+      } else alert('စာချုပ် Document ရှာမတွေ့ပါ။');
+    };
+
+    function openSendAgentModal(propId){
+      const p = data.properties.find(item => item.id == propId);
+      if(!p) return;
+      const text = `🏡 *${p.title}*\n📍 ${p.township}, ${p.city}\n💰 စျေးနှုန်း: ${mmk(p.price)}\n📌 အမျိုးအစား: ${p.type} (${p.listing})\n🛏 ${p.beds} အိပ်ခန်း · 🚿 ${p.baths} ရေချိုးခန်း\n📞 ဆက်သွယ်ရန်: ${p.phone || '-'}`;
+      document.getElementById('sendAgentText').value = text;
+      document.getElementById('shareWhatsAppBtn').onclick = () => window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`, '_blank');
+      document.getElementById('shareTelegramBtn').onclick = () => window.open(`https://t.me/share/url?text=${encodeURIComponent(text)}`, '_blank');
+      document.getElementById('sendAgentModal').classList.add('open');
+    }
+    function closeSendAgentModal(){ document.getElementById('sendAgentModal').classList.remove('open'); }
+    document.getElementById('closeSendAgentModal').onclick = closeSendAgentModal;
+    document.getElementById('cancelSendAgentModal').onclick = closeSendAgentModal;
+
+    async function openImageModal(propertyId){
+      const p = data.properties.find(item=>item.id==propertyId);
+      if(!p) return;
+      const imgs = Array.isArray(p.imageIds) ? p.imageIds : [];
+      document.getElementById('imageModalTitle').textContent = `${p.title} - ဓာတ်ပုံများ (${imgs.length})`;
+      const grid = document.getElementById('imageGalleryGrid');
+      if(imgs.length === 0) grid.innerHTML = '<div class="empty">ဓာတ်ပုံများ မရှိပါ။</div>';
+      else {
+        grid.innerHTML = '<div class="empty">ပုံများ ရယူနေပါသည်...</div>';
+        const imageElements = [];
+        for (const imgId of imgs.slice(0, 5)) {
+          const url = await getImageFromDB(imgId);
+          if (url) imageElements.push(`<div class="gallery-item"><img src="${url}" /></div>`);
+        }
+        grid.innerHTML = imageElements.length ? imageElements.join('') : '<div class="empty">ပုံများကို ရှာမတွေ့ပါ။</div>';
+      }
+      document.getElementById('imageModal').classList.add('open');
+    }
+    function closeImageModal(){document.getElementById('imageModal').classList.remove('open')}
+    document.getElementById('closeImageModal').onclick = closeImageModal;
+    document.getElementById('cancelImageModal').onclick = closeImageModal;
+
+    let activeContractFileBlob = null;
+    let activeContractFileName = "";
+
+    function openDealModal(dealId = null) {
+      activeContractFileBlob = null; activeContractFileName = "";
+      document.getElementById('contractFileInfo').textContent = "မရွေးရသေးပါ";
+      document.getElementById('dealId').value = dealId || '';
+
+      const propSelect = document.getElementById('dealPropertySelect');
+      propSelect.innerHTML = '<option value="">-- အိမ်ခြံမြေ ရွေးပါ --</option>' + data.properties.map(p => `<option value="${p.id}">${esc(p.title)} (${esc(p.township)} - ${esc(p.listing)})</option>`).join('');
+
+      const clientSelect = document.getElementById('dealClientSelect');
+      clientSelect.innerHTML = '<option value="">-- ဖောက်သည် ရွေးပါ --</option>' + data.clients.map(c => `<option value="${esc(c.name)}">${esc(c.name)} (${esc(c.type)})</option>`).join('');
+
+      document.getElementById('agentSplitContainer').innerHTML = '';
+
+      if (dealId) {
+        const existing = data.deals.find(d => d.id == dealId);
+        if (existing) {
+          document.getElementById('dealModalTitle').textContent = "အရောင်းအဝယ် လုပ်ငန်းစဉ် ပြင်ဆင်ရန်";
+          document.getElementById('dealTitle').value = existing.title || '';
+          propSelect.value = existing.propertyId || '';
+          clientSelect.value = existing.client || '';
+          document.getElementById('dealOwner').value = existing.owner || '';
+          document.getElementById('dealOwnerPhone').value = existing.ownerPhone || '';
+          document.getElementById('dealListingType').value = existing.listingType || '';
+          document.getElementById('dealTargetPrice').value = existing.targetPrice ? mmk(existing.targetPrice) : '';
+          document.getElementById('dealStage').value = existing.stage || 'အသစ်';
+          document.getElementById('dealClosedPrice').value = existing.closedPrice || 0;
+          document.getElementById('dealCommPercent').value = existing.commPercent || 2;
+          document.getElementById('dealDate').value = existing.date || new Date().toISOString().slice(0, 10);
+          if (existing.startDate) document.getElementById('dealStartDate').value = existing.startDate;
+          if (existing.endDate) document.getElementById('dealEndDate').value = existing.endDate;
+          if (existing.contractFileName) document.getElementById('contractFileInfo').textContent = `ယခင်: ${existing.contractFileName}`;
+          if (Array.isArray(existing.agents) && existing.agents.length > 0) {
+            existing.agents.forEach(a => addAgentSplitRow(a.agentId, a.pct));
+          } else addAgentSplitRow();
+        }
+      } else {
+        document.getElementById('dealModalTitle').textContent = "အရောင်းအဝယ် လုပ်ငန်းစဉ် အသစ်";
+        document.getElementById('dealTitle').value = '';
+        document.getElementById('dealOwner').value = ''; document.getElementById('dealOwnerPhone').value = '';
+        document.getElementById('dealListingType').value = ''; document.getElementById('dealTargetPrice').value = '';
+        document.getElementById('dealClosedPrice').value = ''; document.getElementById('dealTotalComm').value = '';
+        document.getElementById('dealStage').value = 'အသစ်';
+        document.getElementById('dealDate').value = new Date().toISOString().slice(0, 10);
+        document.getElementById('dealStartDate').value = new Date().toISOString().slice(0, 10);
+        document.getElementById('dealEndDate').value = new Date(Date.now() + 365*86400000).toISOString().slice(0, 10);
+        addAgentSplitRow();
+      }
+      checkDealStageFields(); calculateCommissions();
+      document.getElementById('dealModal').classList.add('open');
+    }
+
+    function closeDealForm() { document.getElementById('dealModal').classList.remove('open'); }
+
+    function checkDealStageFields() {
+      const stage = document.getElementById('dealStage').value;
+      const startContainer = document.getElementById('dealStartDateContainer');
+      const endContainer = document.getElementById('dealEndDateContainer');
+
+      if (stage === 'စရံချပြီး' || stage === 'စာချုပ်ချုပ်ပြီး') {
+        startContainer.style.display = 'block'; endContainer.style.display = 'block';
+      } else {
+        startContainer.style.display = 'none'; endContainer.style.display = 'none';
+      }
+    }
+    document.getElementById('dealStage').onchange = checkDealStageFields;
+
+    function addAgentSplitRow(selectedAgentId = '', pct = 100) {
+      const container = document.getElementById('agentSplitContainer');
+      const rowId = 'agent_row_' + Date.now() + '_' + Math.random().toString(36).substr(2, 4);
+      if (!selectedAgentId && data.agents.length > 0) selectedAgentId = data.agents[0].id;
+      const div = document.createElement('div');
+      div.className = 'agent-split-row'; div.id = rowId;
+      div.innerHTML = `
+        <select class="select agent-select" onchange="calculateCommissions()">
+          <option value="">-- Agent ရွေးပါ --</option>
+          ${data.agents.map(a => `<option value="${a.id}" ${a.id == selectedAgentId ? 'selected' : ''}>${esc(a.name)} (${esc(a.agency)})</option>`).join('')}
+        </select>
+        <input class="input agent-pct" type="number" min="0" max="100" value="${pct}" placeholder="%" oninput="calculateCommissions()" />
+        <span class="agent-comm-val" style="color:var(--brand-dark)">0 ကျပ်</span>
+        <button type="button" class="btn danger" onclick="removeAgentSplitRow('${rowId}')" style="padding:4px 8px">✕</button>
+      `;
+      container.appendChild(div); calculateCommissions();
+    }
+    window.removeAgentSplitRow = function(rowId) { document.getElementById(rowId)?.remove(); calculateCommissions(); };
+
+    function calculateCommissions() {
+      const closedPrice = Number(document.getElementById('dealClosedPrice').value || 0);
+      const commPct = Number(document.getElementById('dealCommPercent').value || 2);
+      const totalComm = (closedPrice * commPct) / 100;
+      document.getElementById('dealTotalComm').value = totalComm ? mmk(totalComm) : '0 ကျပ်';
+
+      // Scope the lookup to the sales pipeline modal for the same reason as
+      // the rental form: the hidden rental modal has its own split rows.
+      document.getElementById('agentSplitContainer').querySelectorAll('.agent-split-row').forEach(row => {
+        const pct = Number(row.querySelector('.agent-pct').value || 100);
+        const agentShare = (totalComm * pct) / 100;
+        row.querySelector('.agent-comm-val').textContent = mmk(agentShare);
+      });
+    }
+
+    document.getElementById('dealPropertySelect').onchange = (e) => {
+      const propId = e.target.value;
+      const prop = data.properties.find(p => p.id == propId);
+      if (prop) {
+        document.getElementById('dealTitle').value = prop.title + ' (' + prop.listing + ')';
+        document.getElementById('dealOwner').value = prop.owner || '-';
+        document.getElementById('dealOwnerPhone').value = prop.phone || '-';
+        document.getElementById('dealListingType').value = prop.listing || '-';
+        document.getElementById('dealTargetPrice').value = mmk(prop.price);
+        document.getElementById('dealClosedPrice').value = prop.price || 0;
+        checkDealStageFields(); calculateCommissions();
+      }
+    };
+
+    document.getElementById('dealClosedPrice').oninput = calculateCommissions;
+    document.getElementById('dealCommPercent').oninput = calculateCommissions;
+    document.getElementById('addAgentRowBtn').onclick = () => addAgentSplitRow();
+
+    document.getElementById('selectContractFileBtn').onclick = () => document.getElementById('dealFileInput').click();
+    document.getElementById('dealFileInput').onchange = (e) => {
+      const file = e.target.files[0];
+      if (file) { activeContractFileBlob = file; activeContractFileName = file.name; document.getElementById('contractFileInfo').textContent = file.name + ` (${(file.size/1024).toFixed(1)} KB)`; }
+    };
+
+    async function saveDealForm(e) {
+      e.preventDefault();
+      const dealIdVal = document.getElementById('dealId').value;
+      const propId = document.getElementById('dealPropertySelect').value;
+      const prop = data.properties.find(p => p.id == propId);
+      const stage = document.getElementById('dealStage').value;
+
+      let contractDocId = dealIdVal ? (data.deals.find(d=>d.id==dealIdVal)?.contractDocId || null) : null;
+      let fileNameStr = activeContractFileName || (dealIdVal ? (data.deals.find(d=>d.id==dealIdVal)?.contractFileName || '') : '');
+
+      if (activeContractFileBlob) {
+        contractDocId = 'doc_' + Date.now();
+        await saveToDB('contracts', contractDocId, activeContractFileBlob, activeContractFileName);
+      }
+
+      const agentSplits = [];
+      document.getElementById('agentSplitContainer').querySelectorAll('.agent-split-row').forEach(row => {
+        const agentId = row.querySelector('.agent-select').value;
+        const pct = Number(row.querySelector('.agent-pct').value || 100);
+        if (agentId) {
+          const agentObj = data.agents.find(a => a.id == agentId);
+          agentSplits.push({ agentId, name: agentObj ? agentObj.name : '', pct });
+        }
+      });
+
+      const closedPrice = Number(document.getElementById('dealClosedPrice').value || 0);
+      const commPct = Number(document.getElementById('dealCommPercent').value || 2);
+
+      if (propId && prop) {
+        if (stage === 'စရံချပြီး' || stage === 'စာချုပ်ချုပ်ပြီး') {
+          prop.status = prop.listing === 'ငှားရန်' ? 'ငှားရမ်းပြီး' : 'ရောင်းပြီး';
+        } else {
+          prop.status = 'ရရှိနိုင်';
+        }
+        save('properties', data.properties);
+      }
+
+      const dealItem = {
+        id: dealIdVal ? Number(dealIdVal) : Date.now(),
+        title: document.getElementById('dealTitle').value.trim(),
+        propertyId: propId,
+        propertyTitle: prop ? prop.title : '',
+        client: document.getElementById('dealClientSelect').value,
+        owner: document.getElementById('dealOwner').value,
+        ownerPhone: document.getElementById('dealOwnerPhone').value,
+        listingType: document.getElementById('dealListingType').value,
+        targetPrice: prop ? prop.price : 0,
+        stage: stage,
+        closedPrice: closedPrice,
+        value: closedPrice,
+        commPercent: commPct,
+        totalCommission: (closedPrice * commPct) / 100,
+        agents: agentSplits,
+        startDate: document.getElementById('dealStartDate').value || '',
+        endDate: document.getElementById('dealEndDate').value || '',
+        contractDocId: contractDocId,
+        contractFileName: fileNameStr,
+        date: document.getElementById('dealDate').value
+      };
+
+      if (dealIdVal) {
+        const idx = data.deals.findIndex(d => d.id == dealIdVal);
+        if (idx >= 0) data.deals[idx] = dealItem;
+      } else data.deals.push(dealItem);
+
+      save('deals', data.deals);
+      closeDealForm(); render();
+    }
+
+    document.getElementById('dealForm').onsubmit = saveDealForm;
+    document.getElementById('closeDealModal').onclick = closeDealForm;
+    document.getElementById('cancelDealModal').onclick = closeDealForm;
+
+    function pipeline(){
+      const stages=['အသစ်','ကြည့်ရှုပြီး','စရံချပြီး','စာချုပ်ချုပ်ပြီး','ပျက်ပြယ်ပြီး'];
+      const items = data.deals;
+      return `<div class="toolbar">
+        <button class="btn primary push" id="addDealBtn">+ လုပ်ငန်းစဉ်အသစ် ထည့်ရန်</button>
+      </div>
+      <div class="notice">💡 အရောင်းအဝယ် လုပ်ငန်းစဉ် pipeline ဖြစ်ပါသည်။</div>
+      <div class="pipeline">${stages.map(s=>`<section class="card stage"><h3>${s} <span style="float:right;color:var(--muted)">${items.filter(d=>d.stage===s).length}</span></h3>${items.filter(d=>d.stage===s).map(d=>{
+        return `<div class="deal" onclick="openDealModal('${d.id}')">
+          <b>${esc(d.title)}</b>
+          <small>👤 ${esc(d.client||'-')}</small>
+          <small>💰 ${mmk(d.closedPrice||d.value)}</small>
+          <small style="color:var(--brand-dark)">💼 My Fee: ${mmk(calculateMyAgentFee(d))}</small>
+        </div>`;
+      }).join('')}</section>`).join('')}</div>`;
+    }
+
+    function updateUserAvatar(){
+      const av = document.getElementById('userAvatar');
+      if(state.user && state.user.name) av.textContent = state.user.name.charAt(0).toUpperCase();
+      else av.textContent = 'A';
+    }
+
+    function openUserModal(){ document.getElementById('userModal').classList.add('open'); }
+    function closeUserModal(){ document.getElementById('userModal').classList.remove('open'); }
+    function loginUser(e){
+      e.preventDefault();
+      const name = document.getElementById('loginName').value.trim() || 'Admin';
+      state.user = { name };
+      localStorage.setItem('pms_user', JSON.stringify(state.user));
+      closeUserModal(); render();
+    }
+    function logoutUser(){
+      state.user = null;
+      localStorage.removeItem('pms_user');
+      closeUserModal(); render();
+    }
+
+    function render(){
+      drawNav();
+      updateUserAvatar();
+      document.getElementById('pageTitle').textContent=pageNames[state.page]||'Dashboard';
+      const c=document.getElementById('content');
+      if(state.page==='dashboard') c.innerHTML=dashboard();
+      else if(state.page==='properties') c.innerHTML=properties();
+      else if(state.page==='rentals') c.innerHTML=rentals();
+      else if(state.page==='leases') c.innerHTML=leases();
+      else if(state.page==='clients') c.innerHTML=clients();
+      else if(state.page==='pipeline') c.innerHTML=pipeline();
+      else if(state.page==='salesContracts') c.innerHTML=salesContracts();
+      else if(state.page==='agents') c.innerHTML=agents();
+      else if(state.page==='invoices') c.innerHTML=invoices();
+      else if(state.page==='maintenance') c.innerHTML=maintenance();
+      attachEvents();
+    }
+
+     function loadDatabaseSettings(){
+       const defaults={
+         provider:'local',
+         supabaseUrl:'',
+         supabaseAnonKey:'',
+         supabaseTable:'pms_data',
+         firebaseApiKey:'',
+         firebaseAuthDomain:'',
+         firebaseDatabaseURL:'',
+         firebaseProjectId:'',
+         firebaseStorageBucket:'',
+         firebaseMessagingSenderId:'',
+         firebaseAppId:'',
+         firebasePath:'pmsData',
+         localhostUrl:'http://localhost:3000',
+         localhostEndpoint:'/api/pms-data',
+         localhostApiKey:''
+       };
+       try { return {...defaults,...(JSON.parse(localStorage.getItem('pms_database_settings'))||{})}; }
+       catch(e) { return defaults; }
+     }
+
+     function saveDatabaseSettings(settings){
+       databaseSettings={...databaseSettings,...settings};
+       localStorage.setItem('pms_database_settings', JSON.stringify(databaseSettings));
+     }
+
+     function getDataSnapshot(){
+       const snapshot={};
+       databaseKeys.forEach(key => { snapshot[key]=data[key]; });
+       return snapshot;
+     }
+
+     function applyDataSnapshot(snapshot){
+       const source=snapshot && snapshot.data && typeof snapshot.data==='object' ? snapshot.data : snapshot;
+       if(!source || typeof source!=='object') return false;
+       let applied=false;
+       databaseKeys.forEach(key => {
+         if(source[key] !== undefined) { data[key]=source[key]; applied=true; }
+       });
+       return applied;
+     }
+
+     function persistLocalSnapshot(){
+       databaseKeys.forEach(key => localStorage.setItem('pms_'+key, JSON.stringify(data[key])));
+     }
+
+     function updateConnectionStatus(provider, message, isError=false){
+       const el=document.getElementById('connectionStatus');
+       if(!el) return;
+       el.className=`connection-status ${isError?'error':provider==='local'?'':'ok'}`;
+       el.textContent=message;
+     }
+
+     function providerLabel(provider){
+       return {local:'Local Browser Storage',supabase:'Supabase',firebase:'Firebase Realtime Database',localhost:'Localhost API'}[provider] || provider;
+     }
+
+     function renderDatabaseProviderFields(){
+       const provider=document.getElementById('databaseProvider')?.value || databaseSettings.provider || 'local';
+       const fields=document.getElementById('databaseProviderFields');
+       const help=document.getElementById('databaseHelp');
+       if(!fields || !help) return;
+       const s=databaseSettings;
+       if(provider==='supabase'){
+         fields.innerHTML=`
+           <div class="field full"><label for="supabaseUrl">Supabase Project URL *</label><input class="input" id="supabaseUrl" type="url" placeholder="https://xxxx.supabase.co" value="${esc(s.supabaseUrl)}" required /></div>
+           <div class="field full"><label for="supabaseAnonKey">Supabase Anon / Publishable Key *</label><input class="input" id="supabaseAnonKey" type="password" placeholder="eyJ..." value="${esc(s.supabaseAnonKey)}" required /></div>
+           <div class="field full"><label for="supabaseTable">Storage Table</label><input class="input" id="supabaseTable" value="${esc(s.supabaseTable || 'pms_data')}" required /></div>
+         `;
+         help.innerHTML=`<details><summary>Supabase table setup</summary><span class="code-note">create table public.pms_data (key text primary key, value jsonb not null);<br><br>Table name ကို အပေါ်က Storage Table နှင့် တူအောင်ထားပြီး browser client အသုံးပြုမည့်အတွက် RLS policy များကို Supabase တွင် သတ်မှတ်ပါ။</span></details>`;
+       } else if(provider==='firebase'){
+         fields.innerHTML=`
+           <div class="field"><label for="firebaseApiKey">API Key *</label><input class="input" id="firebaseApiKey" type="password" value="${esc(s.firebaseApiKey)}" required /></div>
+           <div class="field"><label for="firebaseAuthDomain">Auth Domain</label><input class="input" id="firebaseAuthDomain" placeholder="project.firebaseapp.com" value="${esc(s.firebaseAuthDomain)}" /></div>
+           <div class="field full"><label for="firebaseDatabaseURL">Realtime Database URL *</label><input class="input" id="firebaseDatabaseURL" type="url" placeholder="https://project-default-rtdb.firebaseio.com" value="${esc(s.firebaseDatabaseURL)}" required /></div>
+           <div class="field"><label for="firebaseProjectId">Project ID *</label><input class="input" id="firebaseProjectId" value="${esc(s.firebaseProjectId)}" required /></div>
+           <div class="field"><label for="firebaseStorageBucket">Storage Bucket</label><input class="input" id="firebaseStorageBucket" value="${esc(s.firebaseStorageBucket)}" /></div>
+           <div class="field"><label for="firebaseMessagingSenderId">Messaging Sender ID</label><input class="input" id="firebaseMessagingSenderId" value="${esc(s.firebaseMessagingSenderId)}" /></div>
+           <div class="field"><label for="firebaseAppId">App ID *</label><input class="input" id="firebaseAppId" value="${esc(s.firebaseAppId)}" required /></div>
+           <div class="field full"><label for="firebasePath">Realtime Database Path</label><input class="input" id="firebasePath" value="${esc(s.firebasePath || 'pmsData')}" required /></div>
+         `;
+         help.innerHTML=`<details><summary>Firebase setup</summary><span class="code-note">Firebase Console မှ Web App config values များကို ဖြည့်ပါ။ Realtime Database Rules တွင် အသုံးပြုမည့် user များအတွက် read/write permission ရှိရန်လိုပါသည်။ Data ကို သတ်မှတ်ထားသော path အောက်တွင် သိမ်းပါမည်။</span></details>`;
+       } else if(provider==='localhost'){
+         fields.innerHTML=`
+           <div class="field full"><label for="localhostUrl">Server Base URL *</label><input class="input" id="localhostUrl" type="url" placeholder="http://localhost:3000" value="${esc(s.localhostUrl || 'http://localhost:3000')}" required /></div>
+           <div class="field full"><label for="localhostEndpoint">Data Endpoint</label><input class="input" id="localhostEndpoint" placeholder="/api/pms-data" value="${esc(s.localhostEndpoint || '/api/pms-data')}" required /></div>
+           <div class="field full"><label for="localhostApiKey">API Key (Optional)</label><input class="input" id="localhostApiKey" type="password" value="${esc(s.localhostApiKey)}" /></div>
+         `;
+         help.innerHTML=`<details open><summary>Localhost API contract</summary><span class="code-note">GET ${esc(s.localhostEndpoint || '/api/pms-data')} → JSON data object (သို့) { data: JSON object }<br>PUT ${esc(s.localhostEndpoint || '/api/pms-data')} → { data: JSON object }<br><br>Browser မှ ခေါ်မည်ဖြစ်သောကြောင့် localhost server တွင် CORS ခွင့်ပြုထားရန်လိုပါသည်။</span></details>`;
+       } else {
+         fields.innerHTML='<div class="field full"><div class="connection-status">Browser Local Storage ကို ဆက်လက်အသုံးပြုနေပါသည်။ Database မချိတ်ဘဲ လက်ရှိ local data မပျောက်ပါ။</div></div>';
+         help.innerHTML='<span>Local Storage သည် ဤ browser အတွင်းသာ သိမ်းဆည်းထားမည်ဖြစ်ပြီး server/database မလိုအပ်ပါ။</span>';
+       }
+     }
+
+     function readDatabaseSettingsFromForm(){
+       const provider=document.getElementById('databaseProvider').value;
+       const next={...databaseSettings,provider};
+       const ids=['supabaseUrl','supabaseAnonKey','supabaseTable','firebaseApiKey','firebaseAuthDomain','firebaseDatabaseURL','firebaseProjectId','firebaseStorageBucket','firebaseMessagingSenderId','firebaseAppId','firebasePath','localhostUrl','localhostEndpoint','localhostApiKey'];
+       ids.forEach(id => { const el=document.getElementById(id); if(el) next[id]=el.value.trim(); });
+       return next;
+     }
+
+     function openSettingsModal(){
+       document.getElementById('databaseProvider').value=databaseSettings.provider || 'local';
+       renderDatabaseProviderFields();
+       updateConnectionStatus(databaseConnection.provider, databaseConnection.connected ? `${providerLabel(databaseConnection.provider)} ချိတ်ဆက်ထားပါသည်။` : 'မချိတ်ဆက်ရသေးပါ။');
+       document.getElementById('settingsModal').classList.add('open');
+     }
+
+     function closeSettingsModal(){ document.getElementById('settingsModal').classList.remove('open'); }
+
+     let firebaseAppInstance=null;
+     let firebaseConfigSignature='';
+     async function getFirebaseDatabase(settings){
+       if(!window.firebase || !firebase.initializeApp) throw new Error('Firebase SDK မရရှိပါ။ Internet connection ကို စစ်ပါ။');
+       const config={
+         apiKey:settings.firebaseApiKey,
+         authDomain:settings.firebaseAuthDomain,
+         databaseURL:settings.firebaseDatabaseURL,
+         projectId:settings.firebaseProjectId,
+         storageBucket:settings.firebaseStorageBucket,
+         messagingSenderId:settings.firebaseMessagingSenderId,
+         appId:settings.firebaseAppId
+       };
+       const signature=JSON.stringify(config);
+       if(firebaseAppInstance && firebaseConfigSignature!==signature){
+         try { await firebaseAppInstance.delete(); } catch(e) {}
+         firebaseAppInstance=null;
+       }
+       if(!firebaseAppInstance){
+         try { firebaseAppInstance=firebase.app('pmsDatabase'); }
+         catch(e) { firebaseAppInstance=firebase.initializeApp(config,'pmsDatabase'); }
+         firebaseConfigSignature=signature;
+       }
+       return firebase.database(firebaseAppInstance);
+     }
+
+     async function readRemoteSnapshot(settings){
+       if(settings.provider==='supabase'){
+         if(!settings.supabaseUrl || !settings.supabaseAnonKey) throw new Error('Supabase URL နှင့် Anon Key ဖြည့်ပါ။');
+         if(!window.supabase || !supabase.createClient) throw new Error('Supabase SDK မရရှိပါ။ Internet connection ကို စစ်ပါ။');
+         const client=supabase.createClient(settings.supabaseUrl, settings.supabaseAnonKey);
+         const {data:rows,error}=await client.from(settings.supabaseTable || 'pms_data').select('key,value');
+         if(error) throw new Error(error.message || 'Supabase read failed');
+         const snapshot={}; (rows||[]).forEach(row => { snapshot[row.key]=row.value; });
+         return {snapshot,exists:(rows||[]).length>0};
+       }
+       if(settings.provider==='firebase'){
+         if(!settings.firebaseDatabaseURL || !settings.firebaseProjectId || !settings.firebaseAppId) throw new Error('Firebase config အချက်အလက်များ မပြည့်စုံပါ။');
+         const firebaseDb=await getFirebaseDatabase(settings);
+         const snap=await firebaseDb.ref(settings.firebasePath || 'pmsData').once('value');
+         return {snapshot:snap.val() || {},exists:snap.exists()};
+       }
+       if(settings.provider==='localhost'){
+         if(!settings.localhostUrl) throw new Error('Localhost Server Base URL ဖြည့်ပါ။');
+         const endpoint=new URL(settings.localhostEndpoint || '/api/pms-data', settings.localhostUrl).toString();
+         const headers={Accept:'application/json'};
+         if(settings.localhostApiKey) headers.Authorization=`Bearer ${settings.localhostApiKey}`;
+         const response=await fetch(endpoint,{method:'GET',headers});
+         if(!response.ok) throw new Error(`Localhost GET ${response.status}`);
+         const payload=await response.json();
+         const snapshot=payload && payload.data && typeof payload.data==='object' ? payload.data : payload;
+         return {snapshot:snapshot || {},exists:!!snapshot && Object.keys(snapshot).length>0};
+       }
+       return {snapshot:getDataSnapshot(),exists:true};
+     }
+
+     async function writeRemoteSnapshot(settings,snapshot){
+       if(settings.provider==='supabase'){
+         const client=supabase.createClient(settings.supabaseUrl, settings.supabaseAnonKey);
+         const rows=databaseKeys.map(key=>({key,value:snapshot[key]}));
+         const {error}=await client.from(settings.supabaseTable || 'pms_data').upsert(rows,{onConflict:'key'});
+         if(error) throw new Error(error.message || 'Supabase write failed');
+         return;
+       }
+       if(settings.provider==='firebase'){
+         const firebaseDb=await getFirebaseDatabase(settings);
+         await firebaseDb.ref(settings.firebasePath || 'pmsData').set(snapshot);
+         return;
+       }
+       if(settings.provider==='localhost'){
+         const endpoint=new URL(settings.localhostEndpoint || '/api/pms-data', settings.localhostUrl).toString();
+         const headers={'Content-Type':'application/json',Accept:'application/json'};
+         if(settings.localhostApiKey) headers.Authorization=`Bearer ${settings.localhostApiKey}`;
+         const response=await fetch(endpoint,{method:'PUT',headers,body:JSON.stringify({data:snapshot})});
+         if(!response.ok) throw new Error(`Localhost PUT ${response.status}`);
+       }
+     }
+
+     async function connectDatabase(settings,loadRemote=true){
+       if(settings.provider==='local'){
+         databaseSettings=settings;
+         saveDatabaseSettings(settings);
+         databaseConnection={provider:'local',connected:true};
+         updateConnectionStatus('local','Local Browser Storage ချိတ်ဆက်ထားပါသည်။');
+         return;
+       }
+       updateConnectionStatus(settings.provider,`${providerLabel(settings.provider)} ချိတ်ဆက်နေပါသည်…`);
+       const result=await readRemoteSnapshot(settings);
+       if(loadRemote && result.exists) {
+         applyDataSnapshot(result.snapshot);
+         persistLocalSnapshot();
+       } else if(loadRemote && !result.exists) {
+         await writeRemoteSnapshot(settings,getDataSnapshot());
+       }
+       databaseSettings=settings;
+       saveDatabaseSettings(settings);
+       databaseConnection={provider:settings.provider,connected:true};
+       updateConnectionStatus(settings.provider,`${providerLabel(settings.provider)} ချိတ်ဆက်ထားပါသည်။`);
+     }
+
+     async function initializeStoredDatabase(){
+       if(!databaseSettings || databaseSettings.provider==='local'){
+         databaseConnection={provider:'local',connected:true};
+         return;
+       }
+       try {
+         await connectDatabase(databaseSettings,true);
+         render();
+       } catch(err) {
+         databaseConnection={provider:'local',connected:false};
+         updateConnectionStatus(databaseSettings.provider,`${providerLabel(databaseSettings.provider)} မချိတ်နိုင်ပါ။ Local data ကို ဆက်သုံးနေပါသည်။`,true);
+       }
+     }
+
+     async function testDatabaseConnection(){
+       const settings=readDatabaseSettingsFromForm();
+       if(settings.provider==='local'){
+         updateConnectionStatus('local','Local Browser Storage အသင့်ဖြစ်ပါသည်။');
+         return;
+       }
+       try {
+         updateConnectionStatus(settings.provider,`${providerLabel(settings.provider)} ကို စမ်းသပ်နေပါသည်…`);
+         const result=await readRemoteSnapshot(settings);
+         updateConnectionStatus(settings.provider,`${providerLabel(settings.provider)} ချိတ်ဆက်မှု အောင်မြင်ပါသည်။ ${result.exists?'Data တွေ့ပါသည်။':'Data မရှိသေးပါ။'}`);
+       } catch(err) {
+         updateConnectionStatus(settings.provider,`ချိတ်ဆက်မှု မအောင်မြင်ပါ။ ${err.message || err}`,true);
+       }
+     }
+
+     async function submitDatabaseSettings(e){
+       e.preventDefault();
+       const settings=readDatabaseSettingsFromForm();
+       const button=document.getElementById('connectDatabase');
+       button.disabled=true;
+       try {
+         await connectDatabase(settings,true);
+         closeSettingsModal();
+         render();
+       } catch(err) {
+         updateConnectionStatus(settings.provider,`မချိတ်နိုင်ပါ။ ${err.message || err}`,true);
+       } finally { button.disabled=false; }
+     }
+
+     function save(key, val){
+       data[key] = val;
+       localStorage.setItem('pms_'+key, JSON.stringify(val));
+       if(databaseSettings.provider!=='local' && databaseConnection.connected && !databaseSyncInProgress){
+         clearTimeout(databaseSaveTimer);
+         databaseSaveTimer=setTimeout(async()=>{
+           try {
+             databaseSyncInProgress=true;
+             await writeRemoteSnapshot(databaseSettings,getDataSnapshot());
+             updateConnectionStatus(databaseSettings.provider,`${providerLabel(databaseSettings.provider)} ချိတ်ဆက်ထားပါသည်။`);
+           } catch(err) {
+             databaseConnection.connected=false;
+             updateConnectionStatus(databaseSettings.provider,`Remote save မအောင်မြင်ပါ။ Local data ကို ဆက်သိမ်းထားပါသည်။`,true);
+           } finally { databaseSyncInProgress=false; }
+         },250);
+       }
+     }
+
+    function attachEvents(){
+      document.getElementById('menuBtn').onclick=()=>document.getElementById('sidebar').classList.toggle('open');
+       document.getElementById('settingsBtn').onclick=openSettingsModal;
+       document.getElementById('closeSettingsModal').onclick=closeSettingsModal;
+       document.getElementById('cancelSettingsModal').onclick=closeSettingsModal;
+       document.getElementById('databaseProvider').onchange=renderDatabaseProviderFields;
+       document.getElementById('testDatabaseConnection').onclick=testDatabaseConnection;
+       document.getElementById('settingsForm').onsubmit=submitDatabaseSettings;
+      document.getElementById('userAvatar').onclick=openUserModal;
+      document.getElementById('closeUserModal').onclick=closeUserModal;
+      document.getElementById('cancelUserModal').onclick=closeUserModal;
+      document.getElementById('userLoginForm').onsubmit=loginUser;
+      document.getElementById('logoutUser').onclick=logoutUser;
+
+      document.getElementById('closePropertyModal').onclick = closePropertyForm;
+      document.getElementById('cancelPropertyModal').onclick = closePropertyForm;
+      document.getElementById('propertyForm').onsubmit = savePropertyForm;
+      document.getElementById('selectImageBtn').onclick = () => document.getElementById('propertyFileInput').click();
+      document.getElementById('propertyFileInput').onchange = (e) => {
+        const files = Array.from(e.target.files);
+        files.forEach(file => {
+          if (selectedImageItems.length < 5) {
+            selectedImageItems.push({ id: null, url: URL.createObjectURL(file), blob: file });
+          }
+        });
+        renderImagePreviews();
+      };
+
+      document.getElementById('closeRentalModal').onclick = closeRentalModal;
+      document.getElementById('cancelRentalModal').onclick = closeRentalModal;
+      document.getElementById('rentalForm').onsubmit = saveRentalForm;
+
+      const closeRecordFunc = () => document.getElementById('recordModal').classList.remove('open');
+      document.getElementById('closeRecordModal').onclick = closeRecordFunc;
+      document.getElementById('cancelRecordModal').onclick = closeRecordFunc;
+
+      if(state.page==='dashboard'){
+        document.getElementById('dashYearFilter').onchange=(e)=>{ state.dashYear = e.target.value; render(); };
+        document.getElementById('dashMonthFilter').onchange=(e)=>{ state.dashMonth = e.target.value; render(); };
+        document.getElementById('clearDashFilter').onclick=()=>{ state.dashYear=''; state.dashMonth=''; render(); };
+      }
+      if(state.page==='properties'){
+        document.getElementById('addProperty').onclick=()=>openPropertyForm();
+        document.querySelectorAll('[data-edit]').forEach(b=>b.onclick=()=>openPropertyForm(b.dataset.edit));
+        document.querySelectorAll('[data-delete]').forEach(b=>b.onclick=()=>{if(confirm('ဖျက်မည်မှာ သေချာပါသလား')){data.properties=data.properties.filter(p=>p.id!=b.dataset.delete);save('properties',data.properties);render();}});
+        document.querySelectorAll('[data-view-images]').forEach(b=>b.onclick=()=>openImageModal(b.dataset.viewImages));
+        document.querySelectorAll('[data-send-agent]').forEach(b=>b.onclick=()=>openSendAgentModal(b.dataset.sendAgent));
+      }
+      if(state.page==='rentals'){
+        document.getElementById('addRentalBtn').onclick=()=>openRentalModal();
+      }
+      if(state.page==='pipeline'){
+        document.getElementById('addDealBtn').onclick=()=>openDealModal();
+      }
+      if(state.page==='clients'){
+        document.getElementById('addClientBtn').onclick=()=>openClientModal();
+      }
+      if(state.page==='agents'){
+        document.getElementById('addAgentBtn').onclick=()=>openAgentModal();
+      }
+      if(state.page==='invoices'){
+        document.getElementById('addInvoiceBtn').onclick=()=>openInvoiceModal();
+        document.querySelectorAll('[data-invoice-edit]').forEach(b=>b.onclick=()=>openInvoiceModal(b.dataset.invoiceEdit));
+        document.querySelectorAll('[data-invoice-delete]').forEach(b=>b.onclick=()=>{
+          if(confirm('ဤငွေတောင်းခံလွှာကို ဖျက်မည်မှာ သေချာပါသလား။')){
+            data.invoices = data.invoices.filter(i=>i.id != b.dataset.invoiceDelete);
+            save('invoices', data.invoices); render();
+          }
+        });
+      }
+      if(state.page==='maintenance'){
+        document.getElementById('addMaintBtn').onclick=()=>openMaintModal();
+        document.querySelectorAll('[data-maint-edit]').forEach(b=>b.onclick=()=>openMaintModal(b.dataset.maintEdit));
+        document.querySelectorAll('[data-maint-delete]').forEach(b=>b.onclick=()=>{
+          if(confirm('ဤအချက်အလက်ကို ဖျက်မည်မှာ သေချာပါသလား။')){
+            data.maintenance = data.maintenance.filter(m=>m.id != b.dataset.maintDelete);
+            save('maintenance', data.maintenance); render();
+          }
+        });
+      }
+    }
   </script>
 </body>
 </html>
