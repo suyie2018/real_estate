@@ -424,6 +424,19 @@
       return Math.max(0, totalComm - paidToAgents);
     }
 
+    function calculateAgentEarnings(agentId) {
+      let earnings = 0;
+      data.deals.filter(d => d.stage === 'စာချုပ်ချုပ်ပြီး' && Array.isArray(d.agents)).forEach(d => {
+        const totalComm = Number(d.totalCommission || (d.closedPrice * (d.commPercent||2)/100) || 0);
+        d.agents.forEach(a => { if (a.agentId == agentId) earnings += (totalComm * Number(a.pct||0)) / 100; });
+      });
+      data.rentals.filter(r => r.stage === 'စာချုပ်ချုပ်ပြီး' && Array.isArray(r.agents)).forEach(r => {
+        const totalComm = Number(r.totalCommission || 0);
+        r.agents.forEach(a => { if (a.agentId == agentId) earnings += (totalComm * Number(a.pct||0)) / 100; });
+      });
+      return earnings;
+    }
+
     function dashboard(){
       const filteredDeals = data.deals.filter(d => {
         if (!d.date) return true;
@@ -498,7 +511,7 @@
         
         <section class="card panel">
           <h2>Top Performing Agents</h2>
-          ${data.agents.map((a,i)=>`<div class="agent-row"><div class="agent-name"><span class="rank">${i+1}</span><div><b>${esc(a.name)}</b><small style="display:block;color:var(--muted)">${esc(a.agency)} · ★ ${a.rating}</small></div></div><div style="text-align:right"><b>${mmk((i+1)*1200000)}</b><small style="display:block;color:var(--muted)">${a.won} won</small></div></div>`).join('')}
+          ${data.agents.map(a=>({...a, earned: calculateAgentEarnings(a.id)})).sort((a,b)=>b.earned-a.earned).map((a,i)=>`<div class="agent-row"><div class="agent-name"><span class="rank">${i+1}</span><div><b>${esc(a.name)}</b><small style="display:block;color:var(--muted)">${esc(a.agency)} · ★ ${a.rating}</small></div></div><div style="text-align:right"><b>${mmk(a.earned)}</b><small style="display:block;color:var(--muted)">${a.won} won</small></div></div>`).join('')}
         </section>
       </div>`;
     }
